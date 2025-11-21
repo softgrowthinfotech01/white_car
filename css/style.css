@@ -1,0 +1,21 @@
+
+        .color-primary {
+            background-color: #0BA6DF;
+        }
+        .color-primary-text {
+            color: #0BA6DF;
+        }
+        .color-primary-hover:hover {
+            background-color: #098dc0; 
+        }
+        .color-light {
+            background-color: #e6f7ff; 
+        }
+        
+        
+        .active-tab {
+            color: #0BA6DF !important; 
+            background-color: #e6f7ff !important; 
+            font-weight: 600; 
+            border-bottom: 3px solid #0BA6DF;
+        }

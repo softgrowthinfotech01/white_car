@@ -10,7 +10,7 @@
 </head>
 <body>
    
-<nav class="flex items-center justify-between px-6 py-4 shadow-lg sticky top-0 bg-white z-30">
+<nav class="flex items-center justify-between px-6 py-4 shadow-xl sticky top-0 bg-white z-30">
 
     <div class="text-2xl font-bold md:pl-32 color-primary-text">LOGO</div>
 

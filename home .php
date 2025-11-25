@@ -9,6 +9,57 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <script src="https://cdn.jsdelivr.net/npm/flowbite@2.3.0/dist/flowbite.min.js"></script>
 
+    <style>
+    .carousel {
+      --items: 6;
+      --carousel-duration: 30s;
+      --carousel-width: 80vw;
+      --carousel-item-width: 280px;
+      --carousel-item-height: 350px;
+      --carousel-item-gap: 2rem;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .carousel-mask {
+      position: absolute;
+      inset: 0;
+      pointer-events: none;
+      mask-image: linear-gradient(to right, transparent, black 10% 90%, transparent);
+    }
+
+    .carousel-inner {
+      position: relative;
+      width: var(--carousel-width);
+      max-width: 1200px;
+      height: var(--carousel-item-height);
+    }
+
+    .carousel-item {
+      animation: marquee var(--carousel-duration) linear infinite;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .carousel:hover .carousel-item {
+      animation-play-state: paused;
+    }
+
+    .carousel-item:hover {
+      transform: translateY(-8px) scale(1.02);
+      box-shadow: 0 18px 35px rgba(15, 23, 42, 0.35);
+    }
+
+    @keyframes marquee {
+      0% { transform: translateX(0); }
+      100% {
+        transform: translateX(
+          calc(
+            (var(--items) * (var(--carousel-item-width) + var(--carousel-item-gap))) * -1
+          )
+        );
+      }
+    }
+  </style>
 
 </head>
 
@@ -20,8 +71,9 @@
 
     include_once "header.php"; ?>
 
+<!-- header end -->
 
-    <section class="relative w-full h-auto md:h-[500px] lg:h-[600px] mx-auto max-w-8xl overflow-hidden z-10">
+    <section class="relative w-full h-auto md:h-[500px] lg:h-[650px] mx-auto max-w-8xl overflow-hidden z-10">
 
         <!-- FLOWBITE CAROUSEL -->
         <div id="hero-carousel" class="relative w-full h-[300px] md:absolute md:inset-0 md:h-full" data-carousel="slide"
@@ -49,7 +101,7 @@
             <!-- Slide 2 -->
             <div class="hidden duration-700 ease-in-out h-full w-full" data-carousel-item>
                 <div class="h-full w-full bg-cover bg-center"
-                    style="background-image: url('img/main_background1.png');">
+                    style="background-image: url('img/main_background2.png');">
                     <div class="h-full w-full bg-black/70 flex items-center">
                         <div class="text-white px-4 sm:px-6 lg:px-16 w-full lg:w-1/2 
             text-center lg:text-left
@@ -68,7 +120,7 @@
             <!-- Slide 3 -->
             <div class="hidden duration-700 ease-in-out h-full w-full" data-carousel-item>
                 <div class="h-full w-full bg-cover bg-center"
-                    style="background-image: url('img/main_background1.png');">
+                    style="background-image: url('img/main_background3.png');">
                     <div class="h-full w-full bg-black/70 flex items-center">
                         <div class="text-white px-4 sm:px-6 lg:px-16 w-full lg:w-1/2 
             text-center lg:text-left
@@ -509,7 +561,7 @@
     </section>
 
 
-    <section class="py-16 px-6 md:px-16 bg-white">
+    <section class="py-16 px-6 md:px-16 color-light">
         <h2 class="text-3xl font-bold text-center mb-12 text-gray-900">Our Services</h2>
 
         <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 text-center max-w-6xl mx-auto">
@@ -584,6 +636,195 @@
     </section>`
 
 
+    <!-- car slider -->
+
+ <!-- ================== EASTER HIGHLIGHTS SECTION ================== -->
+<section class="w-full max-w-6xl mx-auto py-12 md:py-16 ">
+
+
+
+  <div class="text-center mb-10">
+    <h2 class="text-3xl font-bold text-center mb-12 text-gray-900">Our Vehicles</h2>
+    
+  </div>
+
+  <div class="carousel mx-auto">
+
+    <div class="carousel-mask"></div>
+
+    <div class="carousel-inner">
+
+ 
+      <!-- ITEM 1 -->
+<article class="carousel-item absolute top-0 bg-white dark:bg-slate-900 rounded-xl overflow-hidden border border-slate-200 dark:border-slate-700 shadow-sm "
+  style=" left: calc(100% + var(--carousel-item-gap)); width: var(--carousel-item-width); height: 300px; animation-delay: calc(var(--carousel-duration)/var(--items)*0*-1);">
+
+  <div class="w-full h-[160px]">
+    <img src="img/innova.png" class="w-full h-full object-cover" />
+  </div>
+
+  <div class="px-4 pt-3 pb-2">
+    <div class="flex items-center gap-2">
+      <img src="https://www.mychoize.com/assets/img/mini_car.svg" class="w-5 h-5" />
+      <p class="text-sm">Toyota</p>
+    </div>
+    <div class="text-lg font-semibold text-right mr-2">Innova Crysta</div>
+  </div>
+
+  <div class="px-4 py-2 border-t border-slate-200 dark:border-slate-700">
+    <div class="flex items-center justify-between">
+    
+      <span class="text-sm font-semibold bg-sky-500 text-white px-3 py-2 rounded-lg mt-2 ms-2">7 Seater</span>
+    </div>
+  </div>
+
+</article>
+
+
+
+<!-- ITEM 2 -->
+<article class="carousel-item absolute top-0 bg-white dark:bg-slate-900 rounded-xl overflow-hidden border border-slate-200 dark:border-slate-700 shadow-sm"
+  style="left: calc(100% + var(--carousel-item-gap)); width: var(--carousel-item-width); height: 300px; animation-delay: calc(var(--carousel-duration)/var(--items)*1*-1);">
+
+  <div class="w-full h-[160px]">
+    <img src="img/tigor.png" class="w-full h-full object-cover" />
+  </div>
+
+  <div class="px-4 pt-3 pb-2">
+    <div class="flex items-center gap-2">
+      <img src="https://www.mychoize.com/assets/img/mini_car.svg" class="w-5 h-5" />
+      <p class="text-sm">Tata</p>
+    </div>
+    <div class="text-lg font-semibold text-right mr-2">Tigor</div>
+  </div>
+
+  <div class="px-4 py-2 border-t border-slate-200 dark:border-slate-700">
+    <div class="flex items-center justify-between">
+      
+      <span class="text-sm font-semibold bg-sky-500 text-white px-3 py-2 rounded-lg mt-2 ms-2">4 Seater</span>
+    </div>
+  </div>
+
+</article>
+
+
+
+<!-- ITEM 3 -->
+<article class="carousel-item absolute top-0 bg-white dark:bg-slate-900 rounded-xl overflow-hidden border border-slate-200 dark:border-slate-700 shadow-sm"
+  style="left: calc(100% + var(--carousel-item-gap)); width: var(--carousel-item-width); height: 300px; animation-delay: calc(var(--carousel-duration)/var(--items)*2*-1);">
+
+  <div class="w-full h-[160px]">
+    <img src="img/city.png" class="w-full h-full object-cover" />
+  </div>
+
+  <div class="px-4 pt-3 pb-2">
+    <div class="flex items-center gap-2">
+      <img src="https://www.mychoize.com/assets/img/mini_car.svg" class="w-5 h-5" />
+      <p class="text-sm">Honda</p>
+    </div>
+    <div class="text-lg font-semibold text-right mr-2">City</div>
+  </div>
+
+  <div class="px-4 py-2 border-t border-slate-200 dark:border-slate-700">
+    <div class="flex items-center justify-between">
+   
+      <span class="text-sm font-semibold bg-sky-500 text-white px-3 py-2 rounded-lg mt-2 ms-2">4 Seater</span>
+    </div>
+  </div>
+
+</article>
+
+
+
+<!-- ITEM 4 -->
+<article class="carousel-item absolute top-0 bg-white dark:bg-slate-900 rounded-xl overflow-hidden border border-slate-200 dark:border-slate-700 shadow-sm"
+  style="left: calc(100% + var(--carousel-item-gap)); width: var(--carousel-item-width); height: 300px; animation-delay: calc(var(--carousel-duration)/var(--items)*3*-1);">
+
+  <div class="w-full h-[160px]">
+    <img src="img/scorpio.png" class="w-full h-full object-cover" />
+  </div>
+
+  <div class="px-4 pt-3 pb-2">
+    <div class="flex items-center gap-2">
+      <img src="https://www.mychoize.com/assets/img/mini_car.svg" class="w-5 h-5" />
+      <p class="text-sm">Mahindra</p>
+    </div>
+    <div class="text-lg font-semibold text-right mr-2">Scorpio</div>
+  </div>
+
+  <div class="px-4 py-2 border-t border-slate-200 dark:border-slate-700">
+    <div class="flex items-center justify-between">
+      
+      <span class="text-sm font-semibold bg-sky-500 text-white px-3 py-2 rounded-lg mt-2 ms-2">7 Seater</span>
+    </div>
+  </div>
+
+</article>
+
+
+
+<!-- ITEM 5 -->
+<article class="carousel-item absolute top-0 bg-white dark:bg-slate-900 rounded-xl overflow-hidden border border-slate-200 dark:border-slate-700 shadow-sm"
+  style="left: calc(100% + var(--carousel-item-gap)); width: var(--carousel-item-width); height: 300px; animation-delay: calc(var(--carousel-duration)/var(--items)*4*-1);">
+
+  <div class="w-full h-[160px]">
+    <img src="img/ciaz.png" class="w-full h-full object-cover" />
+  </div>
+
+  <div class="px-4 pt-3 pb-2">
+    <div class="flex items-center gap-2">
+      <img src="https://www.mychoize.com/assets/img/mini_car.svg" class="w-5 h-5" />
+      <p class="text-sm">Maruti Suzuki</p>
+    </div>
+    <div class="text-lg font-semibold text-right mr-2">Ciaz</div>
+  </div>
+
+  <div class="px-4 py-2 border-t border-slate-200 dark:border-slate-700">
+    <div class="flex items-center justify-between">
+      
+      <span class="text-sm font-semibold bg-sky-500 text-white px-3 py-2 rounded-lg mt-2 ms-2">4 Seater</span>
+    </div>
+  </div>
+
+</article>
+
+
+
+<!-- ITEM 6 -->
+<article class="carousel-item absolute top-0 bg-white dark:bg-slate-900 rounded-xl overflow-hidden border border-slate-200 dark:border-slate-700 shadow-sm"
+  style="left: calc(100% + var(--carousel-item-gap)); width: var(--carousel-item-width); height: 300px; animation-delay: calc(var(--carousel-duration)/var(--items)*5*-1);">
+
+  <div class="w-full h-[160px]">
+    <img src="img/creta.png" class="w-full h-full object-cover" />
+  </div>
+
+  <div class="px-4 pt-3 pb-2">
+    <div class="flex items-center gap-2">
+      <img src="https://www.mychoize.com/assets/img/mini_car.svg" class="w-5 h-5" />
+      <p class="text-sm">Hyundai</p>
+    </div>
+    <div class="text-lg font-semibold text-right mr-2">Creta</div>
+  </div>
+
+  <div class="px-4 py-2 border-t border-slate-200 dark:border-slate-700">
+    <div class="flex items-center justify-between">
+     
+      <span class="text-sm font-semibold bg-sky-500 text-white px-3 py-2 rounded-lg mt-2 ms-2">4 Seater</span>
+    </div>
+  </div>
+
+</article>
+
+
+
+    </div>
+  </div>
+
+</section>
+
+
+
+
     <section class="py-16 px-6 md:px-16 color-light">
         <div
             class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 items-center bg-white p-8 rounded-2xl shadow-2xl">
@@ -647,36 +888,12 @@
         </div>
     </section>
 
+  <!-- footer -->
+    <?php
 
-    <footer class="mt-0 px-6 md:px-16 py-12 bg-gray-900 text-white">
-        <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-10">
+    include_once "footer.php"; ?>
 
-            <div>
-                <h3 class="font-bold text-xl mb-3 color-primary-text">White Car</h3>
-                <p class="text-sm text-gray-400 leading-relaxed">
-                    paragraph here....
-                </p>
-            </div>
-
-            <div>
-                <h3 class="font-bold text-lg mb-3">Address</h3>
-                <p class="text-gray-400">
-                    Chandrapur, Maharashtra
-                </p>
-            </div>
-
-            <div>
-                <h3 class="font-bold text-lg mb-3">Get in Touch</h3>
-                <p class="text-gray-400 mb-1">📞 +91 9876543210</p>
-                <p class="text-gray-400">📧 <a href="#" class="hover:text-[#0BA6DF] transition">Email:
-                        contact@whitecar.com</a></p>
-            </div>
-
-        </div>
-        <div class="border-t border-gray-700 mt-8 pt-8 text-center text-gray-500 text-sm">
-            &copy; white car.
-        </div>
-    </footer>
+    <!-- footer end -->
 
     <script>
         document.addEventListener("DOMContentLoaded", () => {

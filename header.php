@@ -14,12 +14,21 @@
 
     <div class="text-2xl font-bold md:pl-32 color-primary-text">LOGO</div>
 
-    <div class="space-x-6 font-medium md:pr-32">
-        <a href="#" class="color-primary-text border-b-2 border-[#0BA6DF] pb-1 font-semibold">Home</a>
-        <a href="#" class="hover:color-primary-text text-gray-700 transition duration-300">Services</a>
-        <a href="#" class="hover:color-primary-text text-gray-700 transition duration-300">Contact</a>
+    <!-- Desktop Menu -->
+    <div class="hidden md:flex space-x-8 font-medium md:pr-32">
+
+        <a href="#" class="color-primary-text hover:text-[#0BA6DF] transition">Home</a>
+        <a href="#" class="hover:text-[#0BA6DF] text-gray-700 transition">Services</a>
+       <a href="#" class="hover:text-[#0BA6DF] text-gray-700 transition">Feedback</a>
+        <a href="#" class="hover:text-[#0BA6DF] text-gray-700 transition">Hire Driver</a>
+        <a href="#" class="hover:text-[#0BA6DF] text-gray-700 transition">Share Car</a>
+        <a href="#" class="hover:text-[#0BA6DF] text-gray-700 transition">Complaint</a>
+        <a href="#" class="hover:text-[#0BA6DF] text-gray-700 transition">Contact</a>
+
     </div>
+
 </nav>
+
 
 
 

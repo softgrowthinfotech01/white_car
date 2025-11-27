@@ -888,12 +888,16 @@
         </div>
     </section>
 
+
   <!-- footer -->
     <?php
 
     include_once "footer.php"; ?>
 
     <!-- footer end -->
+
+
+
 
     <script>
         document.addEventListener("DOMContentLoaded", () => {

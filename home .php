@@ -656,7 +656,7 @@
 
  
       <!-- ITEM 1 -->
-<article class="carousel-item absolute top-0 bg-white dark:bg-slate-900 rounded-xl overflow-hidden border border-slate-200 dark:border-slate-700 shadow-sm "
+<article class="carousel-item absolute top-0 bg-white rounded-xl overflow-hidden border border-slate-200  shadow-sm "
   style=" left: calc(100% + var(--carousel-item-gap)); width: var(--carousel-item-width); height: 300px; animation-delay: calc(var(--carousel-duration)/var(--items)*0*-1);">
 
   <div class="w-full h-[160px]">
@@ -671,7 +671,7 @@
     <div class="text-lg font-semibold text-right mr-2">Innova Crysta</div>
   </div>
 
-  <div class="px-4 py-2 border-t border-slate-200 dark:border-slate-700">
+  <div class="px-4 py-2 border-t border-slate-200">
     <div class="flex items-center justify-between">
     
       <span class="text-sm font-semibold bg-sky-500 text-white px-3 py-2 rounded-lg mt-2 ms-2">7 Seater</span>
@@ -683,7 +683,7 @@
 
 
 <!-- ITEM 2 -->
-<article class="carousel-item absolute top-0 bg-white dark:bg-slate-900 rounded-xl overflow-hidden border border-slate-200 dark:border-slate-700 shadow-sm"
+<article class="carousel-item absolute top-0 bg-white  rounded-xl overflow-hidden border border-slate-200  shadow-sm"
   style="left: calc(100% + var(--carousel-item-gap)); width: var(--carousel-item-width); height: 300px; animation-delay: calc(var(--carousel-duration)/var(--items)*1*-1);">
 
   <div class="w-full h-[160px]">
@@ -698,7 +698,7 @@
     <div class="text-lg font-semibold text-right mr-2">Tigor</div>
   </div>
 
-  <div class="px-4 py-2 border-t border-slate-200 dark:border-slate-700">
+  <div class="px-4 py-2 border-t border-slate-200 ">
     <div class="flex items-center justify-between">
       
       <span class="text-sm font-semibold bg-sky-500 text-white px-3 py-2 rounded-lg mt-2 ms-2">4 Seater</span>
@@ -710,7 +710,7 @@
 
 
 <!-- ITEM 3 -->
-<article class="carousel-item absolute top-0 bg-white dark:bg-slate-900 rounded-xl overflow-hidden border border-slate-200 dark:border-slate-700 shadow-sm"
+<article class="carousel-item absolute top-0 bg-white  rounded-xl overflow-hidden border border-slate-200  shadow-sm"
   style="left: calc(100% + var(--carousel-item-gap)); width: var(--carousel-item-width); height: 300px; animation-delay: calc(var(--carousel-duration)/var(--items)*2*-1);">
 
   <div class="w-full h-[160px]">
@@ -725,7 +725,7 @@
     <div class="text-lg font-semibold text-right mr-2">City</div>
   </div>
 
-  <div class="px-4 py-2 border-t border-slate-200 dark:border-slate-700">
+  <div class="px-4 py-2 border-t border-slate-200 ">
     <div class="flex items-center justify-between">
    
       <span class="text-sm font-semibold bg-sky-500 text-white px-3 py-2 rounded-lg mt-2 ms-2">4 Seater</span>
@@ -737,7 +737,7 @@
 
 
 <!-- ITEM 4 -->
-<article class="carousel-item absolute top-0 bg-white dark:bg-slate-900 rounded-xl overflow-hidden border border-slate-200 dark:border-slate-700 shadow-sm"
+<article class="carousel-item absolute top-0 bg-white  rounded-xl overflow-hidden border border-slate-200  shadow-sm"
   style="left: calc(100% + var(--carousel-item-gap)); width: var(--carousel-item-width); height: 300px; animation-delay: calc(var(--carousel-duration)/var(--items)*3*-1);">
 
   <div class="w-full h-[160px]">
@@ -752,7 +752,7 @@
     <div class="text-lg font-semibold text-right mr-2">Scorpio</div>
   </div>
 
-  <div class="px-4 py-2 border-t border-slate-200 dark:border-slate-700">
+  <div class="px-4 py-2 border-t border-slate-200 ">
     <div class="flex items-center justify-between">
       
       <span class="text-sm font-semibold bg-sky-500 text-white px-3 py-2 rounded-lg mt-2 ms-2">7 Seater</span>
@@ -764,7 +764,7 @@
 
 
 <!-- ITEM 5 -->
-<article class="carousel-item absolute top-0 bg-white dark:bg-slate-900 rounded-xl overflow-hidden border border-slate-200 dark:border-slate-700 shadow-sm"
+<article class="carousel-item absolute top-0 bg-white  rounded-xl overflow-hidden border border-slate-200  shadow-sm"
   style="left: calc(100% + var(--carousel-item-gap)); width: var(--carousel-item-width); height: 300px; animation-delay: calc(var(--carousel-duration)/var(--items)*4*-1);">
 
   <div class="w-full h-[160px]">
@@ -779,7 +779,7 @@
     <div class="text-lg font-semibold text-right mr-2">Ciaz</div>
   </div>
 
-  <div class="px-4 py-2 border-t border-slate-200 dark:border-slate-700">
+  <div class="px-4 py-2 border-t border-slate-200 ">
     <div class="flex items-center justify-between">
       
       <span class="text-sm font-semibold bg-sky-500 text-white px-3 py-2 rounded-lg mt-2 ms-2">4 Seater</span>
@@ -791,7 +791,7 @@
 
 
 <!-- ITEM 6 -->
-<article class="carousel-item absolute top-0 bg-white dark:bg-slate-900 rounded-xl overflow-hidden border border-slate-200 dark:border-slate-700 shadow-sm"
+<article class="carousel-item absolute top-0 bg-white  rounded-xl overflow-hidden border border-slate-200  shadow-sm"
   style="left: calc(100% + var(--carousel-item-gap)); width: var(--carousel-item-width); height: 300px; animation-delay: calc(var(--carousel-duration)/var(--items)*5*-1);">
 
   <div class="w-full h-[160px]">
@@ -806,7 +806,7 @@
     <div class="text-lg font-semibold text-right mr-2">Creta</div>
   </div>
 
-  <div class="px-4 py-2 border-t border-slate-200 dark:border-slate-700">
+  <div class="px-4 py-2 border-t border-slate-200 ">
     <div class="flex items-center justify-between">
      
       <span class="text-sm font-semibold bg-sky-500 text-white px-3 py-2 rounded-lg mt-2 ms-2">4 Seater</span>

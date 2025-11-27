@@ -9,7 +9,7 @@
 
 </head>
 <body>
- <footer class="mt-0 px-6 md:px-16 py-12 bg-gray-900 text-white">
+ <footer class=" hidden sm:block mt-0 px-6 md:px-16 py-12 bg-gray-900 text-white">
         <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-10">
 
             <div>

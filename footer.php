@@ -35,7 +35,7 @@
 
         </div>
         <div class="border-t border-gray-700 mt-8 pt-8 text-center text-gray-500 text-sm">
-            &copy;2025 White Car | Developed By <a class="" href="https://softgrowthinfotech.com/">Softgrowth Infotech</a>.
+            &copy;2025 White Car | Developed By <a class="" href="https://softgrowthinfotech.com/" target="_blank">Softgrowth Infotech</a>.
         </div>
     </footer>
 

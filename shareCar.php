@@ -13,7 +13,7 @@
 
 include_once "header.php";?>
 
-<form class="max-w-lg mx-auto px-4 py-3 bg-blue-50 shadow-md space-y-5">
+<form class="w-full mx-auto px-4 py-3 bg-blue-50 shadow-md space-y-5">
 <div class="text-white bg-blue-500 mt-7 text-center py-3 text-lg sm:text-xl font-bold" >Sharing Car </div>
 
 <!-- From and To buttons -->
@@ -91,191 +91,311 @@ include_once "header.php";?>
 </div>
 
 <!-- card 1 -->
-
-<div class="max-w-md mx-auto bg-white border-2 border-blue-100 rounded-xl shadow-sm">
-      <div class="flex items-center justify-between px-4 py-3">
-        <div class="flex items-center gap-3">
-          <img src="img/main_background1.png" alt="car" class="w-16 h-12 object-cover rounded-lg "/>
-          <div>
-            <div class="font-semibold text-lg text-gray-800 ">Bhushan</div>
-          </div>
-        </div>
-
-
-        <div class="flex flex-col items-end space-y-2">
-          <div class="text-gray-800 font-semibold text-md">₹ 1150 / person</div>
-
-          <button class="flex items-center bg-blue-50 border border-blue-200 text-gray-700 px-5 py-1 gap-2 rounded-md shadow-sm hover:bg-blue-100">
-            <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" viewBox="0 0 24 24" fill="black" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-              <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.86 19.86 0 0 1-8.63-3.13A19.5 19.5 0 0 1 3.13 8.82 19.86 19.86 0 0 1 .0 0 2 2 0 0 1 2 0h3a2 2 0 0 1 2 1.72c.12 1.05.37 2.07.72 3.03a2 2 0 0 1-.45 1.95L6.54 8.54a16 16 0 0 0 7.92 7.92l1.86-1.86a2 2 0 0 1 1.95-.45c.96.35 1.98.6 3.03.72A2 2 0 0 1 22 16.92z"/>
-            </svg>
-
-            <span class="text-md font-medium">Enquire</span>
-          </button>
-          </div>
-        </div>
-
-      <!-- border -->
-      <div class="border-t border-blue-200 "></div>
-
-      <div class="px-6 py-4">
-        <div class="flex">
-          <div class="w-12 flex flex-col items-center ml-7">
-            <svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-            <path
-              d="M12 2C8.7 2 6 4.7 6 8c0 4.8 6 11.5 6 11.5S18 12.8 18 8c0-3.3-2.7-6-6-6z"
-              fill="#22c55e" />
-            <circle cx="12" cy="8" r="2.2" fill="white" />
-            </svg>
-
-
-            <!-- vertical line -->
-            <div class="w-px bg-gray-300 h-7 mx-auto -mt-1 "></div>
-
-            <!-- dot -->
-            <div class="w-2 h-2 rounded-full bg-red-500"></div>
-          </div>
-
-          <div class="flex-1">
-            <div class="flex justify-between items-center">
-              <div class="text-sm text-gray-700">Nagpur</div>
-              <div class="text-sm text-gray-600 mr-14">1.30 pm</div>
-            </div>
-
-            <div class="mt-4 flex justify-between items-center">
-              <div class="text-sm text-gray-700">Chandrapur</div>
-              <div class="text-sm text-gray-600 mr-14">4.00 pm</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+  <div class="w-full p-5 bg-white border-2 border-blue-300 rounded-xl shadow-sm hover:bg-blue-200 transition transform hover:-translate-y-1 motion-reduce:transition-none motion-reduce:transform-none">
+        <div class="flex items-center justify-between px-4 py-3">
+          <div class="flex items-center gap-3">
+            <img src="img/main_background1.png" alt="car" class="w-16 h-12 object-cover rounded-lg "/>
+            <div>
+              <div class="font-semibold text-lg text-gray-800 ">Bhushan</div>
             </div>
           </div>
-        </div>
-      </div>
 
-      </div>
+
+          <div class="flex flex-col items-end space-y-2">
+            <div class="text-gray-800 font-semibold text-md">₹ 1150 / person</div>
+
+            <button class="flex items-center bg-blue-50 border border-blue-200 text-gray-700 px-5 py-1 gap-2 rounded-md shadow-sm hover:bg-blue-100">
+              <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" viewBox="0 0 24 24" fill="black" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.86 19.86 0 0 1-8.63-3.13A19.5 19.5 0 0 1 3.13 8.82 19.86 19.86 0 0 1 .0 0 2 2 0 0 1 2 0h3a2 2 0 0 1 2 1.72c.12 1.05.37 2.07.72 3.03a2 2 0 0 1-.45 1.95L6.54 8.54a16 16 0 0 0 7.92 7.92l1.86-1.86a2 2 0 0 1 1.95-.45c.96.35 1.98.6 3.03.72A2 2 0 0 1 22 16.92z"/>
+              </svg>
+
+              <span class="text-md font-medium">Enquire</span>
+            </button>
+            </div>
+          </div>
+
+        <!-- border -->
+        <div class="border-t border-blue-200 "></div>
+
+        <div class="px-6 py-4">
+          <div class="flex">
+            <div class="w-12 flex flex-col items-center ml-7">
+              <svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+              <path
+                d="M12 2C8.7 2 6 4.7 6 8c0 4.8 6 11.5 6 11.5S18 12.8 18 8c0-3.3-2.7-6-6-6z"
+                fill="#22c55e" />
+              <circle cx="12" cy="8" r="2.2" fill="white" />
+              </svg>
+
+
+              <!-- vertical line -->
+              <div class="w-px bg-gray-300 h-7 mx-auto -mt-1 "></div>
+
+              <!-- dot -->
+              <div class="w-2 h-2 rounded-full bg-red-500"></div>
+            </div>
+
+            <div class="flex-1">
+              <div class="flex justify-between items-center">
+                <div class="text-sm text-gray-700">Nagpur</div>
+                <div class="text-sm text-gray-600 sm: mr-14 lg:mr-14">1.30 pm</div>
+              </div>
+
+              <div class="mt-4 flex justify-between items-center">
+                <div class="text-sm text-gray-700">Chandrapur</div>
+                <div class="text-sm text-gray-600 sm: mr-14 lg:mr-14">4.00 pm</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+
+  <!-- card 2 -->
+
+  <div class="w-full p-5 bg-white border-2 border-blue-300 rounded-xl shadow-sm hover:bg-blue-200 transition transform hover:-translate-y-1 motion-reduce:transition-none motion-reduce:transform-none">
+        <div class="flex items-center justify-between px-4 py-3 ">
+          <div class="flex items-center gap-3">
+            <img src="img/main_background1.png" alt="car" class="w-16 h-12 object-cover rounded-lg "/>
+            <div>
+              <div class="font-semibold text-lg text-gray-800 ">Bhushan</div>
+            </div>
+          </div>
+
+
+          <div class="flex flex-col items-end space-y-2">
+            <div class="text-gray-800 font-semibold text-md">₹ 1150 / person</div>
+
+            <button class="flex items-center bg-blue-50 border border-blue-200 text-gray-700 px-5 py-1 gap-2 rounded-md shadow-sm hover:bg-blue-100">
+              <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" viewBox="0 0 24 24" fill="black" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.86 19.86 0 0 1-8.63-3.13A19.5 19.5 0 0 1 3.13 8.82 19.86 19.86 0 0 1 .0 0 2 2 0 0 1 2 0h3a2 2 0 0 1 2 1.72c.12 1.05.37 2.07.72 3.03a2 2 0 0 1-.45 1.95L6.54 8.54a16 16 0 0 0 7.92 7.92l1.86-1.86a2 2 0 0 1 1.95-.45c.96.35 1.98.6 3.03.72A2 2 0 0 1 22 16.92z"/>
+              </svg>
+
+              <span class="text-md font-medium">Enquire</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- border -->
+        <div class="border-t border-blue-200 "></div>
+
+        <div class="px-6 py-4">
+          <div class="flex">
+            <div class="w-12 flex flex-col items-center ml-7 ">
+              <svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+              <path
+                d="M12 2C8.7 2 6 4.7 6 8c0 4.8 6 11.5 6 11.5S18 12.8 18 8c0-3.3-2.7-6-6-6z"
+                fill="#22c55e" />
+              <circle cx="12" cy="8" r="2.2" fill="white" />
+              </svg>
+
+
+              <!-- vertical line -->
+              <div class="w-px bg-gray-300 h-7 mx-auto -mt-1 "></div>
+
+              <!-- dot -->
+              <div class="w-2 h-2 rounded-full bg-red-500"></div>
+            </div>
+
+            <div class="flex-1">
+              <div class="flex justify-between items-center">
+                <div class="text-sm text-gray-700">Chandrapur</div>
+                <div class="text-sm text-gray-600 sm: mr-14 lg:mr-14">8.00 am</div>
+              </div>
+
+              <div class="mt-4 flex justify-between items-center">
+                <div class="text-sm text-gray-700">Gadchiroli</div>
+                <div class="text-sm text-gray-600 sm: mr-14 lg:mr-14">10.30 am</div>
+              </div>
+            </div>
+          </div>
+         </div>
+  </div>
+
+  <!-- card 3 -->
+
+  <div class="w-full p-5 bg-white border-2 border-blue-300 rounded-xl shadow-sm hover:bg-blue-200 transition transform hover:-translate-y-1 motion-reduce:transition-none motion-reduce:transform-none">
+        <div class="flex items-center justify-between px-4 py-3">
+          <div class="flex items-center gap-3">
+            <img src="img/main_background1.png" alt="car" class="w-16 h-12 object-cover rounded-lg "/>
+            <div>
+              <div class="font-semibold text-lg text-gray-800 ">Bhushan</div>
+            </div>
+          </div>
+
+
+          <div class="flex flex-col items-end space-y-2">
+            <div class="text-gray-800 font-semibold text-md">₹ 1150 / person</div>
+
+            <button class="flex items-center bg-blue-50 border border-blue-200 text-gray-700 px-5 py-1 gap-2 rounded-md shadow-sm hover:bg-blue-100">
+              <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" viewBox="0 0 24 24" fill="black" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.86 19.86 0 0 1-8.63-3.13A19.5 19.5 0 0 1 3.13 8.82 19.86 19.86 0 0 1 .0 0 2 2 0 0 1 2 0h3a2 2 0 0 1 2 1.72c.12 1.05.37 2.07.72 3.03a2 2 0 0 1-.45 1.95L6.54 8.54a16 16 0 0 0 7.92 7.92l1.86-1.86a2 2 0 0 1 1.95-.45c.96.35 1.98.6 3.03.72A2 2 0 0 1 22 16.92z"/>
+              </svg>
+
+              <span class="text-md font-medium">Enquire</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- border -->
+        <div class="border-t border-blue-200 "></div>
+
+        <div class="px-6 py-4">
+          <div class="flex">
+            <div class="w-12 flex flex-col items-center ml-7">
+              <svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+              <path
+                d="M12 2C8.7 2 6 4.7 6 8c0 4.8 6 11.5 6 11.5S18 12.8 18 8c0-3.3-2.7-6-6-6z"
+                fill="#22c55e" />
+              <circle cx="12" cy="8" r="2.2" fill="white" />
+              </svg>
+
+
+              <!-- vertical line -->
+              <div class="w-px bg-gray-300 h-7 mx-auto -mt-1 "></div>
+
+              <!-- dot -->
+              <div class="w-2 h-2 rounded-full bg-red-500"></div>
+            </div>
+
+            <div class="flex-1">
+              <div class="flex justify-between items-center">
+                <div class="text-sm text-gray-700">Chandrapur</div>
+                <div class="text-sm text-gray-600 sm: mr-14 lg:mr-14">6.00 am</div>
+              </div>
+
+              <div class="mt-4 flex justify-between items-center">
+                <div class="text-sm text-gray-700">Nagpur</div>
+                <div class="text-sm text-gray-600 sm: mr-14 lg:mr-14">8.30 am</div>
+              </div>
+            </div>
+          </div>
+         </div>
+  </div>
+
+  <!-- card 4 -->
+
+  <div class="w-full p-5 bg-white border-2 border-blue-300 rounded-xl shadow-sm hover:bg-blue-200 transition transform hover:-translate-y-1 motion-reduce:transition-none motion-reduce:transform-none">
+        <div class="flex items-center justify-between px-4 py-3">
+          <div class="flex items-center gap-3">
+            <img src="img/main_background1.png" alt="car" class="w-16 h-12 object-cover rounded-lg "/>
+            <div>
+              <div class="font-semibold text-lg text-gray-800 ">Bhushan</div>
+            </div>
+          </div>
+
+
+          <div class="flex flex-col items-end space-y-2">
+            <div class="text-gray-800 font-semibold text-md">₹ 1150 / person</div>
+
+            <button class="flex items-center bg-blue-50 border border-blue-200 text-gray-700 px-5 py-1 gap-2 rounded-md shadow-sm hover:bg-blue-100">
+              <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" viewBox="0 0 24 24" fill="black" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.86 19.86 0 0 1-8.63-3.13A19.5 19.5 0 0 1 3.13 8.82 19.86 19.86 0 0 1 .0 0 2 2 0 0 1 2 0h3a2 2 0 0 1 2 1.72c.12 1.05.37 2.07.72 3.03a2 2 0 0 1-.45 1.95L6.54 8.54a16 16 0 0 0 7.92 7.92l1.86-1.86a2 2 0 0 1 1.95-.45c.96.35 1.98.6 3.03.72A2 2 0 0 1 22 16.92z"/>
+              </svg>
+
+              <span class="text-md font-medium">Enquire</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- border -->
+        <div class="border-t border-blue-200 "></div>
+
+        <div class="px-6 py-4">
+          <div class="flex">
+            <div class="w-12 flex flex-col items-center ml-7">
+              <svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+              <path
+                d="M12 2C8.7 2 6 4.7 6 8c0 4.8 6 11.5 6 11.5S18 12.8 18 8c0-3.3-2.7-6-6-6z"
+                fill="#22c55e" />
+              <circle cx="12" cy="8" r="2.2" fill="white" />
+              </svg>
+
+
+              <!-- vertical line -->
+              <div class="w-px bg-gray-300 h-7 mx-auto -mt-1 "></div>
+
+              <!-- dot -->
+              <div class="w-2 h-2 rounded-full bg-red-500"></div>
+            </div>
+
+            <div class="flex-1">
+              <div class="flex justify-between items-center">
+                <div class="text-sm text-gray-700">Chandrapur</div>
+                <div class="text-sm text-gray-600 sm: mr-14 lg:mr-14">6.00 am</div>
+              </div>
+
+              <div class="mt-4 flex justify-between items-center">
+                <div class="text-sm text-gray-700">Nagpur</div>
+                <div class="text-sm text-gray-600 sm: mr-14 lg:mr-14">8.30 am</div>
+              </div>
+            </div>
+          </div>
+         </div>
+  </div>
+
+  <!-- card 5 -->
+
+  <div class="w-full p-5 bg-white border-2 border-blue-300 rounded-xl shadow-sm hover:bg-blue-200 transition transform hover:-translate-y-1 motion-reduce:transition-none motion-reduce:transform-none">
+        <div class="flex items-center justify-between px-4 py-3">
+          <div class="flex items-center gap-3">
+            <img src="img/main_background1.png" alt="car" class="w-16 h-12 object-cover rounded-lg "/>
+            <div>
+              <div class="font-semibold text-lg text-gray-800 ">Bhushan</div>
+            </div>
+          </div>
+
+
+          <div class="flex flex-col items-end space-y-2">
+            <div class="text-gray-800 font-semibold text-md">₹ 1150 / person</div>
+
+            <button class="flex items-center bg-blue-50 border border-blue-200 text-gray-700 px-5 py-1 gap-2 rounded-md shadow-sm hover:bg-blue-100">
+              <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" viewBox="0 0 24 24" fill="black" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.86 19.86 0 0 1-8.63-3.13A19.5 19.5 0 0 1 3.13 8.82 19.86 19.86 0 0 1 .0 0 2 2 0 0 1 2 0h3a2 2 0 0 1 2 1.72c.12 1.05.37 2.07.72 3.03a2 2 0 0 1-.45 1.95L6.54 8.54a16 16 0 0 0 7.92 7.92l1.86-1.86a2 2 0 0 1 1.95-.45c.96.35 1.98.6 3.03.72A2 2 0 0 1 22 16.92z"/>
+              </svg>
+
+              <span class="text-md font-medium">Enquire</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- border -->
+        <div class="border-t border-blue-200 "></div>
+
+        <div class="px-6 py-4">
+          <div class="flex">
+            <div class="w-12 flex flex-col items-center ml-7">
+              <svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+              <path
+                d="M12 2C8.7 2 6 4.7 6 8c0 4.8 6 11.5 6 11.5S18 12.8 18 8c0-3.3-2.7-6-6-6z"
+                fill="#22c55e" />
+              <circle cx="12" cy="8" r="2.2" fill="white" />
+              </svg>
+
+
+              <!-- vertical line -->
+              <div class="w-px bg-gray-300 h-7 mx-auto -mt-1 "></div>
+
+              <!-- dot -->
+              <div class="w-2 h-2 rounded-full bg-red-500"></div>
+            </div>
+
+            <div class="flex-1">
+              <div class="flex justify-between items-center">
+                <div class="text-sm text-gray-700">Chandrapur</div>
+                <div class="text-sm text-gray-600 sm: mr-14 lg:mr-14">6.00 am</div>
+              </div>
+
+              <div class="mt-4 flex justify-between items-center">
+                <div class="text-sm text-gray-700">Nagpur</div>
+                <div class="text-sm text-gray-600 sm: mr-14 lg:mr-14">8.30 am</div>
+              </div>
+            </div>
+          </div>
+         </div>
+  </div>
+
 </div>
-
-    <!-- card 2 -->
-
-<div class="max-w-md mx-auto bg-white border-2 border-blue-100 rounded-xl shadow-sm">
-      <div class="flex items-center justify-between px-4 py-3">
-        <div class="flex items-center gap-3">
-          <img src="img/main_background1.png" alt="car" class="w-16 h-12 object-cover rounded-lg "/>
-          <div>
-            <div class="font-semibold text-lg text-gray-800 ">Bhushan</div>
-          </div>
-        </div>
-
-
-        <div class="flex flex-col items-end space-y-2">
-          <div class="text-gray-800 font-semibold text-md">₹ 1150 / person</div>
-
-          <button class="flex items-center bg-blue-50 border border-blue-200 text-gray-700 px-5 py-1 gap-2 rounded-md shadow-sm hover:bg-blue-100">
-            <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" viewBox="0 0 24 24" fill="black" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-              <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.86 19.86 0 0 1-8.63-3.13A19.5 19.5 0 0 1 3.13 8.82 19.86 19.86 0 0 1 .0 0 2 2 0 0 1 2 0h3a2 2 0 0 1 2 1.72c.12 1.05.37 2.07.72 3.03a2 2 0 0 1-.45 1.95L6.54 8.54a16 16 0 0 0 7.92 7.92l1.86-1.86a2 2 0 0 1 1.95-.45c.96.35 1.98.6 3.03.72A2 2 0 0 1 22 16.92z"/>
-            </svg>
-
-            <span class="text-md font-medium">Enquire</span>
-          </button>
-        </div>
-      </div>
-
-      <!-- border -->
-      <div class="border-t border-blue-200 "></div>
-
-      <div class="px-6 py-4">
-        <div class="flex">
-          <div class="w-12 flex flex-col items-center ml-7 ">
-            <svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-            <path
-              d="M12 2C8.7 2 6 4.7 6 8c0 4.8 6 11.5 6 11.5S18 12.8 18 8c0-3.3-2.7-6-6-6z"
-              fill="#22c55e" />
-            <circle cx="12" cy="8" r="2.2" fill="white" />
-            </svg>
-
-
-            <!-- vertical line -->
-            <div class="w-px bg-gray-300 h-7 mx-auto -mt-1 "></div>
-
-            <!-- dot -->
-            <div class="w-2 h-2 rounded-full bg-red-500"></div>
-          </div>
-
-          <div class="flex-1">
-            <div class="flex justify-between items-center">
-              <div class="text-sm text-gray-700">Chandrapur</div>
-              <div class="text-sm text-gray-600 mr-14">8.00 am</div>
-            </div>
-
-            <div class="mt-4 flex justify-between items-center">
-              <div class="text-sm text-gray-700">Gadchiroli</div>
-              <div class="text-sm text-gray-600 mr-14">10.30 am</div>
-            </div>
-          </div>
-        </div>
-       </div>
-</div>
-
-<!-- card 3 -->
-
-<div class="max-w-md mx-auto bg-white border-2 border-blue-100 rounded-xl shadow-sm">
-      <div class="flex items-center justify-between px-4 py-3">
-        <div class="flex items-center gap-3">
-          <img src="img/main_background1.png" alt="car" class="w-16 h-12 object-cover rounded-lg "/>
-          <div>
-            <div class="font-semibold text-lg text-gray-800 ">Bhushan</div>
-          </div>
-        </div>
-
-
-        <div class="flex flex-col items-end space-y-2">
-          <div class="text-gray-800 font-semibold text-md">₹ 1150 / person</div>
-
-          <button class="flex items-center bg-blue-50 border border-blue-200 text-gray-700 px-5 py-1 gap-2 rounded-md shadow-sm hover:bg-blue-100">
-            <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" viewBox="0 0 24 24" fill="black" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-              <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.86 19.86 0 0 1-8.63-3.13A19.5 19.5 0 0 1 3.13 8.82 19.86 19.86 0 0 1 .0 0 2 2 0 0 1 2 0h3a2 2 0 0 1 2 1.72c.12 1.05.37 2.07.72 3.03a2 2 0 0 1-.45 1.95L6.54 8.54a16 16 0 0 0 7.92 7.92l1.86-1.86a2 2 0 0 1 1.95-.45c.96.35 1.98.6 3.03.72A2 2 0 0 1 22 16.92z"/>
-            </svg>
-
-            <span class="text-md font-medium">Enquire</span>
-          </button>
-        </div>
-      </div>
-
-      <!-- border -->
-      <div class="border-t border-blue-200 "></div>
-
-      <div class="px-6 py-4">
-        <div class="flex">
-          <div class="w-12 flex flex-col items-center ml-7">
-            <svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-            <path
-              d="M12 2C8.7 2 6 4.7 6 8c0 4.8 6 11.5 6 11.5S18 12.8 18 8c0-3.3-2.7-6-6-6z"
-              fill="#22c55e" />
-            <circle cx="12" cy="8" r="2.2" fill="white" />
-            </svg>
-
-
-            <!-- vertical line -->
-            <div class="w-px bg-gray-300 h-7 mx-auto -mt-1 "></div>
-
-            <!-- dot -->
-            <div class="w-2 h-2 rounded-full bg-red-500"></div>
-          </div>
-
-          <div class="flex-1">
-            <div class="flex justify-between items-center">
-              <div class="text-sm text-gray-700">Chandrapur</div>
-              <div class="text-sm text-gray-600 mr-14">6.00 am</div>
-            </div>
-
-            <div class="mt-4 flex justify-between items-center">
-              <div class="text-sm text-gray-700">Nagpur</div>
-              <div class="text-sm text-gray-600 mr-14">8.30 am</div>
-            </div>
-          </div>
-        </div>
-       </div>
-</div>
-
-
 </form>
 </body>
 </html>

@@ -44,7 +44,7 @@
         <!-- ===== Sidebar End ===== -->
 
         <!-- ===== Content Area Start ===== -->
-        <div class="relative flex flex-col flex-1 overflow-x-hidden overflow-y-auto">
+        <div class="relative flex flex-col flex-1 overflow-x-hidden overflow-y-auto bg-gray-800">
             <!-- Small Device Overlay Start -->
             <div @click="sidebarToggle = false" :class="sidebarToggle ? 'block lg:hidden' : 'hidden'"
                 class="fixed w-full h-screen z-9 bg-gray-900/50"></div>
@@ -62,7 +62,7 @@
 
             <!-- ===== Main Content Start ===== -->
             <main>
-                <div class="p-4 mx-auto md:p-6">
+                <div class="p-4 mx-auto md:p-6 mt-20">
                     <div class="grid grid-cols-6 gap-4 md:gap-6">
                         <div class="col-span-12 space-y-6 xl:col-span-7">
 
@@ -71,9 +71,9 @@
                             <div class="grid grid-cols-1 gap-6 sm:grid-cols-1">
                                 <div class="space-y-6">
                                     <div
-                                        class="rounded-2xl border border-gray-200 bg-white  :border-gray-800  :bg-white/[0.03]">
-                                        <div class="px-5 py-4 sm:px-6 sm:py-5">
-                                            <h3 class="text-base font-medium text-gray-800  :text-white/90">
+                                        class="rounded-2xl border border-gray-200 bg-white   ">
+                                        <div class="px-5 py-4 sm:px-6 bg-rose-100 rounded-t-[15px] sm:py-5">
+                                            <h3 class="text-base font-medium text-gray-800">
                                                Update Vehicle Details
                                             </h3>
                                         </div>

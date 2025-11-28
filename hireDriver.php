@@ -6,16 +6,10 @@
          <link rel="stylesheet" href="css/style.css">
          
 
-    <title>Hire Driver</title>
+    <title>Share car</title>
 
 
-<style>
 
-  .active-tab {
-    color: #2563eb;
-    background-color: #e0dedeff;
-  }
-</style>
 
 
 </head>
@@ -29,110 +23,114 @@ include_once "header.php";?>
 <!-- <section class=" mt-3 mx-4 md:mx-12 pt-10 pb-10 rounded-lg bg-gray-50 overflow-hidden"> -->
 
 <!-- hiredriver -->
-<form class="max-w-lg mx-auto mt-4 mb-4 p-4 md:p-6  bg-blue-50 rounded-xl shadow-md space-y-5">
+<section class="py-12 bg-gray-100">
+  <div class="max-w-3xl mx-auto bg-white shadow-xl rounded-2xl px-6 py-10">
 
-  <div>
-    <label class="block text-sm font-medium text-gray-700 mb-1">Name</label>
-    <input
-      type="text"
-      class="w-full border border-gray-300 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500 "
-      placeholder="Enter your name"
-    />
-  </div>
+    <!-- Title -->
+    <div class="text-center mb-8">
+      <h2 class="text-3xl font-bold text-gray-800 border-b-4 border-sky-500 inline-block pb-1">
+        Share Your Details
+      </h2>
+      <p class="text-gray-500 mt-2">Fill the form and submit your travel request.</p>
+    </div>
 
-  <div>
-    <label class="block text-sm font-medium text-gray-700 mb-1">Mobile No</label>
-    <input
-      type="tel"
-      class="w-full border border-gray-300 rounded-lg px-3 py-2 focus:ring-2 focus:ring-blue-500 focus:outline-none"
-      placeholder="Enter your mobile number"
-    />
-  </div>
+    <form class="space-y-6">
 
-  <div>
-    <label class="block text-sm font-medium text-gray-700 mb-1">Vehicle Name</label>
-    <input
-      type="text"
-      class="w-full border border-gray-300 rounded-lg px-3 py-2 focus:ring-2 focus:ring-blue-500 focus:outline-none"
-      placeholder="Enter your vehicle name"
-    />
-  </div>
+      <!-- Name -->
+      <div>
+        <label class="block text-gray-700 font-semibold mb-1">Name</label>
+        <input type="text" placeholder="Enter your name"
+          class="w-full px-4 py-3 border border-gray-300 rounded-lg
+                 focus:ring-2 focus:ring-sky-500 focus:outline-none">
+      </div>
 
-  <div>
-    <label class="block text-sm font-medium text-gray-700 mb-1">Vehicle Number</label>
-    <input
-      type="number"
-      class="w-full border border-gray-300 rounded-lg px-3 py-2 focus:ring-2 focus:ring-blue-500 focus:outline-none"
-      placeholder="Enter your vehicle number"
-    />
-  </div>
+      <!-- Mobile -->
+      <div>
+        <label class="block text-gray-700 font-semibold mb-1">Mobile No</label>
+        <input type="tel" placeholder="Enter your mobile number"
+          class="w-full px-4 py-3 border border-gray-300 rounded-lg
+                 focus:ring-2 focus:ring-sky-500 focus:outline-none">
+      </div>
 
-  <div>
-    <label class="block text-sm font-medium text-gray-700 mb-1">Address</label>
-    <input
-      type="text"
-      class="w-full border border-gray-300 rounded-lg px-3 py-2 focus:ring-2 focus:ring-blue-500 focus:outline-none"
-      placeholder="Enter your address"
-    />
-  </div>
+      <!-- Vehicle Name -->
+      <div>
+        <label class="block text-gray-700 font-semibold mb-1">Vehicle Name</label>
+        <input type="text" placeholder="Enter your vehicle name"
+          class="w-full px-4 py-3 border border-gray-300 rounded-lg
+                 focus:ring-2 focus:ring-sky-500 focus:outline-none">
+      </div>
 
-  <div class="flex flex-col md:flex-row md:gap-4">
-  <div class="w-full md:w-1/2">
-    <label class="block text-sm font-medium text-gray-700 mb-1">From</label>
-    <input
-      type="text"
-      class="w-full border border-gray-300 rounded-lg px-3 py-2 focus:ring-2 focus:ring-blue-500 focus:outline-none"
-      placeholder="Enter a city from"
-    />
-  </div>
+      <!-- Vehicle Number -->
+      <div>
+        <label class="block text-gray-700 font-semibold mb-1">Vehicle Number</label>
+        <input type="text" placeholder="Enter your vehicle number"
+          class="w-full px-4 py-3 border border-gray-300 rounded-lg
+                 focus:ring-2 focus:ring-sky-500 focus:outline-none">
+      </div>
 
-  <div class="w-full md:w-1/2 mt-4 md:mt-0">
-    <label class="block text-sm font-medium text-gray-700 mb-1">To</label>
-    <input
-      type="text"
-      class="w-full border border-gray-300 rounded-lg px-3 py-2 focus:ring-2 focus:ring-blue-500 focus:outline-none"
-      placeholder="Enter a city to"
-    />
-  </div>
-  </div>
+      <!-- Address -->
+      <div>
+        <label class="block text-gray-700 font-semibold mb-1">Address</label>
+        <input type="text" placeholder="Enter your address"
+          class="w-full px-4 py-3 border border-gray-300 rounded-lg
+                 focus:ring-2 focus:ring-sky-500 focus:outline-none">
+      </div>
 
-  <div class="flex flex-col md:flex-row md:gap-4">
-  <div class="w-full md:w-1/2">
-    <label class="block text-sm font-medium text-gray-700 mb-1">Date/Time</label>
-    <input
-      type="datetime-local"
-      class="w-full border border-gray-300 rounded-lg px-3 py-2 focus:ring-2 focus:ring-blue-500 focus:outline-none"
-      placeholder="Enter date and time"
-    />
-  </div>
+      <!-- From + To -->
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div>
+          <label class="block text-gray-700 font-semibold mb-1">From</label>
+          <input type="text" placeholder="City from"
+            class="w-full px-4 py-3 border border-gray-300 rounded-lg
+                   focus:ring-2 focus:ring-sky-500 focus:outline-none">
+        </div>
 
-  <div class="w-full md:w-1/2 mt-4 md:mt-0">
-    <label class="block text-sm font-medium text-gray-700 mb-1">Seating Capacity</label>
-    <input
-      type="number"
-      class="w-full border border-gray-300 rounded-lg px-3 py-2 focus:ring-2 focus:ring-blue-500 focus:outline-none"
-      placeholder="Enter Seating Capacity"
-    />
-  </div>
-  </div>
+        <div>
+          <label class="block text-gray-700 font-semibold mb-1">To</label>
+          <input type="text" placeholder="City to"
+            class="w-full px-4 py-3 border border-gray-300 rounded-lg
+                   focus:ring-2 focus:ring-sky-500 focus:outline-none">
+        </div>
+      </div>
 
-  <div>
-    <label class="block text-sm font-medium text-gray-700 mb-1">Charges Upto 2300/- Rs</label>
-    <input
-      type="text"
-      class="w-full md:w-2/3 border border-gray-300 rounded-lg px-3 py-2 focus:ring-2 focus:ring-blue-500 focus:outline-none"
-      placeholder="Enter Charges for Travel"
-    />
+      <!-- Date / Seating -->
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div>
+          <label class="block text-gray-700 font-semibold mb-1">Date / Time</label>
+          <input type="datetime-local"
+            class="w-full px-4 py-3 border border-gray-300 rounded-lg
+                   focus:ring-2 focus:ring-sky-500 focus:outline-none">
+        </div>
+
+        <div>
+          <label class="block text-gray-700 font-semibold mb-1">Seating Capacity</label>
+          <input type="number" placeholder="4 / 7 / 9"
+            class="w-full px-4 py-3 border border-gray-300 rounded-lg
+                   focus:ring-2 focus:ring-sky-500 focus:outline-none">
+        </div>
+      </div>
+
+      <!-- Charges -->
+      <div>
+        <label class="block text-gray-700 font-semibold mb-1">Charges Upto 2300/- Rs</label>
+        <input type="text" placeholder="Enter charges for travel"
+          class="w-full md:w-2/3 px-4 py-3 border border-gray-300 rounded-lg
+                 focus:ring-2 focus:ring-sky-500 focus:outline-none">
+      </div>
+
+      <!-- Button -->
+      <div class="text-center">
+        <button type="submit"
+          class="w-full md:w-1/2 bg-sky-600 text-white font-semibold 
+                 py-3 rounded-lg shadow-md hover:bg-sky-700 transition">
+          Share
+        </button>
+      </div>
+
+    </form>
+
   </div>
-
-  <button
-    type="submit"
-    class="w-full md:w-1/2 bg-green-600 text-white py-2 rounded-lg block mx-auto hover:bg-blue-700 transition"
-  >
-    Share
-  </button>
-
-</form>
+</section>
 
 
 

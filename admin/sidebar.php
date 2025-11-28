@@ -47,7 +47,7 @@
         <ul class="flex flex-col gap-8">
 
          <li>
-    <a href="dashboard.php"
+    <a href="dashboard"
        @click="selected = 'Dashboard'"
        class="flex items-center gap-3 px-3 py-2 border border-gray-300 rounded-md hover:bg-gray-100 transition"
        :class="selected === 'Dashboard' ? 'bg-gray-200' : ''">
@@ -93,7 +93,7 @@
                 <!-- DROPDOWN -->
                 <div x-show="selected === 'location'" x-collapse class="mt-3 ml-10 space-y-4">
 
-                    <a href="form_location.php"
+                    <a href="form_location"
                         class="block px-3 py-2 text-sm border border-gray-300 rounded-md hover:bg-gray-100">
                         Location Form
                     </a>
@@ -125,22 +125,22 @@
                 <!-- DROPDOWN -->
                 <div x-show="selected === 'Forms'" x-collapse class="mt-3 ml-10 space-y-4">
 
-                    <a href="form_carRental.php"
+                    <a href="form_carRental"
                         class="block px-3 py-2 text-sm border border-gray-300 rounded-md hover:bg-gray-100">
                         Car Rental Form
                     </a>
 
-                    <a href="form_driver.php"
+                    <a href="form_driver"
                         class="block px-3 py-2 text-sm border border-gray-300 rounded-md hover:bg-gray-100">
                         Driver Details Form
                     </a>
 
-                     <a href="form_perHour.php"
+                     <a href="form_perHour"
                         class="block px-3 py-2 text-sm border border-gray-300 rounded-md hover:bg-gray-100">
                         Per Hour Form
                     </a>
 
-                    <a href="form_miniBus.php"
+                    <a href="form_miniBus"
                         class="block px-3 py-2 text-sm border border-gray-300 rounded-md hover:bg-gray-100">
                         Mini Bus Form
                     </a>
@@ -175,28 +175,28 @@
 
                 <div x-show="selected === 'Tables'" x-collapse class="mt-3 ml-10 space-y-4">
 
-                    <a href="list_carRental.php"
+                    <a href="list_carRental"
                         class="block px-3 py-2 text-sm border border-gray-300 rounded-md hover:bg-gray-100">Car Rental List</a>
 
-                    <a href="list_perHour.php"
+                    <a href="list_perHour"
                         class="block px-3 py-2 text-sm border border-gray-300 rounded-md hover:bg-gray-100">Per Hour</a>
 
-                    <a href="list_miniBus.php"
+                    <a href="list_miniBus"
                         class="block px-3 py-2 text-sm border border-gray-300 rounded-md hover:bg-gray-100">Mini Bus</a>    
 
-                    <a href="list_driver.php"
+                    <a href="list_driver"
                         class="block px-3 py-2 text-sm border border-gray-300 rounded-md hover:bg-gray-100">Driver List</a>
 
-                    <a href="list_sharingCabDriver.php"
+                    <a href="list_sharingCabDriver"
                         class="block px-3 py-2 text-sm border border-gray-300 rounded-md hover:bg-gray-100">Sharing Cab Driver List</a>
 
-                    <a href="list_feedback.php"
+                    <a href="list_feedback"
                         class="block px-3 py-2 text-sm border border-gray-300 rounded-md hover:bg-gray-100">Feedback</a>
 
-                    <a href="list_complaint.php"
+                    <a href="list_complaint"
                         class="block px-3 py-2 text-sm border border-gray-300 rounded-md hover:bg-gray-100">Complaint</a>
 
-                     <a href="list_location.php"
+                     <a href="list_location"
                         class="block px-3 py-2 text-sm border border-gray-300 rounded-md hover:bg-gray-100">Location</a>    
 
                 </div>

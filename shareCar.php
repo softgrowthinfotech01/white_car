@@ -95,7 +95,7 @@ include_once "header.php";?>
   <div class="w-full p-5 bg-white border-2 border-blue-300 rounded-xl shadow-sm hover:bg-blue-200 transition transform hover:-translate-y-1 motion-reduce:transition-none motion-reduce:transform-none">
         <div class="flex items-center justify-between px-4 py-3">
           <div class="flex items-center gap-3">
-            <img src="img/main_background1.png" alt="car" class="w-16 h-12 object-cover rounded-lg "/>
+            <img src="img/main_background1.webp" alt="car" class="w-16 h-12 object-cover rounded-lg "/>
             <div>
               <div class="font-semibold text-lg text-gray-800 ">Bhushan</div>
             </div>
@@ -156,7 +156,7 @@ include_once "header.php";?>
   <div class="w-full p-5 bg-white border-2 border-blue-300 rounded-xl shadow-sm hover:bg-blue-200 transition transform hover:-translate-y-1 motion-reduce:transition-none motion-reduce:transform-none">
         <div class="flex items-center justify-between px-4 py-3 ">
           <div class="flex items-center gap-3">
-            <img src="img/main_background1.png" alt="car" class="w-16 h-12 object-cover rounded-lg "/>
+            <img src="img/main_background1.webp" alt="car" class="w-16 h-12 object-cover rounded-lg "/>
             <div>
               <div class="font-semibold text-lg text-gray-800 ">Bhushan</div>
             </div>
@@ -217,7 +217,7 @@ include_once "header.php";?>
   <div class="w-full p-5 bg-white border-2 border-blue-300 rounded-xl shadow-sm hover:bg-blue-200 transition transform hover:-translate-y-1 motion-reduce:transition-none motion-reduce:transform-none">
         <div class="flex items-center justify-between px-4 py-3">
           <div class="flex items-center gap-3">
-            <img src="img/main_background1.png" alt="car" class="w-16 h-12 object-cover rounded-lg "/>
+            <img src="img/main_background1.webp" alt="car" class="w-16 h-12 object-cover rounded-lg "/>
             <div>
               <div class="font-semibold text-lg text-gray-800 ">Bhushan</div>
             </div>
@@ -278,7 +278,7 @@ include_once "header.php";?>
   <div class="w-full p-5 bg-white border-2 border-blue-300 rounded-xl shadow-sm hover:bg-blue-200 transition transform hover:-translate-y-1 motion-reduce:transition-none motion-reduce:transform-none">
         <div class="flex items-center justify-between px-4 py-3">
           <div class="flex items-center gap-3">
-            <img src="img/main_background1.png" alt="car" class="w-16 h-12 object-cover rounded-lg "/>
+            <img src="img/main_background1.webp" alt="car" class="w-16 h-12 object-cover rounded-lg "/>
             <div>
               <div class="font-semibold text-lg text-gray-800 ">Bhushan</div>
             </div>
@@ -339,7 +339,7 @@ include_once "header.php";?>
   <div class="w-full p-5 bg-white border-2 border-blue-300 rounded-xl shadow-sm hover:bg-blue-200 transition transform hover:-translate-y-1 motion-reduce:transition-none motion-reduce:transform-none">
         <div class="flex items-center justify-between px-4 py-3">
           <div class="flex items-center gap-3">
-            <img src="img/main_background1.png" alt="car" class="w-16 h-12 object-cover rounded-lg "/>
+            <img src="img/main_background1.webp" alt="car" class="w-16 h-12 object-cover rounded-lg "/>
             <div>
               <div class="font-semibold text-lg text-gray-800 ">Bhushan</div>
             </div>

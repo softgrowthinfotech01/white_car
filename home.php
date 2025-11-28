@@ -82,7 +82,7 @@
             <!-- Slide 1 -->
             <div class="hidden duration-700 ease-in-out h-full w-full" data-carousel-item="active">
                 <div class="h-full w-full bg-cover bg-center"
-                    style="background-image: url('img/main_background1.png');">
+                    style="background-image: url('img/main_background1.webp');">
                     <div class="h-full w-full bg-black/70 flex items-center">
                         <div class="text-white px-4 sm:px-6 lg:px-16 w-full lg:w-1/2 
             text-center lg:text-left
@@ -101,7 +101,7 @@
             <!-- Slide 2 -->
             <div class="hidden duration-700 ease-in-out h-full w-full" data-carousel-item>
                 <div class="h-full w-full bg-cover bg-center"
-                    style="background-image: url('img/main_background2.png');">
+                    style="background-image: url('img/main_background2.webp');">
                     <div class="h-full w-full bg-black/70 flex items-center">
                         <div class="text-white px-4 sm:px-6 lg:px-16 w-full lg:w-1/2 
             text-center lg:text-left
@@ -120,7 +120,7 @@
             <!-- Slide 3 -->
             <div class="hidden duration-700 ease-in-out h-full w-full" data-carousel-item>
                 <div class="h-full w-full bg-cover bg-center"
-                    style="background-image: url('img/main_background3.png');">
+                    style="background-image: url('img/main_background3.webp');">
                     <div class="h-full w-full bg-black/70 flex items-center">
                         <div class="text-white px-4 sm:px-6 lg:px-16 w-full lg:w-1/2 
             text-center lg:text-left
@@ -207,7 +207,7 @@
 
                                     <!-- Image -->
                                     <a href="#">
-                                        <img src="img/fourSeater.png" alt="4 Seater" class="w-full rounded-t-2xl object-cover h-40 sm:h-44 md:h-48 lg:object-contain lg:h-auto">
+                                        <img src="img/fourSeater.webp" alt="4 Seater" class="w-full rounded-t-2xl object-cover h-40 sm:h-44 md:h-48 lg:object-contain lg:h-auto">
                                     </a>
 
                                     <!-- Content -->
@@ -245,7 +245,7 @@
 
                                     <!-- Image -->
                                     <a href="#">
-                                        <img src="img/7seater.png" alt="7 Seater" class="w-full rounded-t-2xl object-cover h-40 sm:h-44 md:h-48 lg:object-contain lg:h-auto">
+                                        <img src="img/7seater.webp" alt="7 Seater" class="w-full rounded-t-2xl object-cover h-40 sm:h-44 md:h-48 lg:object-contain lg:h-auto">
                                     </a>
 
                                     <!-- Content -->
@@ -281,7 +281,7 @@
 
                                     <!-- Image -->
                                     <a href="#">
-                                        <img src="img/9seater.png" alt="9 Seater" class=" w-full rounded-t-2xl object-cover h-40 sm:h-44 md:h-48 lg:object-contain lg:h-auto">
+                                        <img src="img/9seater.webp" alt="9 Seater" class=" w-full rounded-t-2xl object-cover h-40 sm:h-44 md:h-48 lg:object-contain lg:h-auto">
                                     </a>
 
                                     <!-- Content -->
@@ -327,7 +327,7 @@
 
                                     <!-- Image -->
                                     <a href="#">
-                                        <img src="img/4seater.png" alt="4 Seater" class="w-full rounded-t-2xl object-cover h-40 sm:h-44 md:h-48 lg:object-contain lg:h-auto">
+                                        <img src="img/4seater.webp" alt="4 Seater" class="w-full rounded-t-2xl object-cover h-40 sm:h-44 md:h-48 lg:object-contain lg:h-auto">
                                     </a>
 
                                     <!-- Content -->
@@ -365,7 +365,7 @@
 
                                     <!-- Image -->
                                     <a href="#">
-                                        <img src="img/sevenSeater.png" alt="7 Seater" class="w-full rounded-t-2xl object-cover h-40 sm:h-44 md:h-48 lg:object-contain lg:h-auto">
+                                        <img src="img/sevenSeater.webp" alt="7 Seater" class="w-full rounded-t-2xl object-cover h-40 sm:h-44 md:h-48 lg:object-contain lg:h-auto">
                                     </a>
 
                                     <!-- Content -->
@@ -402,7 +402,7 @@
 
                                     <!-- Image -->
                                     <a href="#">
-                                        <img src="img/nineSeater.png" alt="9 Seater" class="w-full rounded-t-2xl object-cover h-40 sm:h-44 md:h-48 lg:object-contain lg:h-auto">
+                                        <img src="img/nineSeater.webp" alt="9 Seater" class="w-full rounded-t-2xl object-cover h-40 sm:h-44 md:h-48 lg:object-contain lg:h-auto">
                                     </a>
 
                                     <!-- Content -->
@@ -449,7 +449,7 @@
 
                                     <!-- Image -->
                                     <a href="#">
-                                        <img src="img/15seater.png" alt="15 Seater" class="w-full rounded-t-2xl object-cover h-40 sm:h-44 md:h-48 lg:object-contain lg:h-auto">
+                                        <img src="img/15seater.webp" alt="15 Seater" class="w-full rounded-t-2xl object-cover h-40 sm:h-44 md:h-48 lg:object-contain lg:h-auto">
                                     </a>
 
                                     <!-- Content -->
@@ -487,7 +487,7 @@
 
                                     <!-- Image -->
                                     <a href="#">
-                                        <img src="img/20seater.png" alt="20 Seater" class="w-full rounded-t-2xl object-cover h-40 sm:h-44 md:h-48 lg:object-contain lg:h-auto">
+                                        <img src="img/20seater.webp" alt="20 Seater" class="w-full rounded-t-2xl object-cover h-40 sm:h-44 md:h-48 lg:object-contain lg:h-auto">
                                     </a>
 
                                     <!-- Content -->
@@ -524,7 +524,7 @@
 
                                     <!-- Image -->
                                     <a href="#">
-                                        <img src="img/26seater.png" alt="26 Seater" class="w-full rounded-t-2xl object-cover h-40 sm:h-44 md:h-48 lg:object-contain lg:h-auto">
+                                        <img src="img/26seater.webp" alt="26 Seater" class="w-full rounded-t-2xl object-cover h-40 sm:h-44 md:h-48 lg:object-contain lg:h-auto">
                                     </a>
 
                                     <!-- Content -->
@@ -571,7 +571,7 @@
                 class="cursor-pointer group relative flex flex-col bg-white shadow-sm border border-slate-200 rounded-lg hover:shadow-lg transition-shadow duration-300">
                 <div class="relative h-56 m-2.5 overflow-hidden rounded-md">
                     <img class="w-full h-full object-cover transition-transform duration-500 ease-out group-hover:scale-110"
-                        src="img/bookCab.png" alt="book a cab" />
+                        src="img/bookCab.webp" alt="book a cab" />
                 </div>
 
                 <div class="p-4">
@@ -588,7 +588,7 @@
                 <div
                     class="relative h-56 m-2.5 overflow-hidden rounded-md bg-slate-50 flex items-center justify-center">
                     <img class="w-full h-full object-cover transition-transform duration-500 ease-out group-hover:scale-110"
-                        src="img/hourlyCab.png" alt="Hourly Service Icon" />
+                        src="img/hourlyCab.webp" alt="Hourly Service Icon" />
                 </div>
 
                 <div class="p-4">
@@ -605,7 +605,7 @@
                 <div
                     class="relative h-56 m-2.5 overflow-hidden rounded-md bg-slate-50 flex items-center justify-center">
                     <img class="w-full h-full object-cover transition-transform duration-500 ease-out group-hover:scale-110"
-                        src="img/bookTraveller.png" alt="Mini Bus Icon" />
+                        src="img/bookTraveller.webp" alt="Mini Bus Icon" />
                 </div>
 
                 <div class="p-4">
@@ -622,7 +622,7 @@
                 <div
                     class="relative h-56 m-2.5 overflow-hidden rounded-md bg-slate-50 flex items-center justify-center">
                     <img class="w-full h-full object-cover transition-transform duration-500 ease-out group-hover:scale-110"
-                        src="img/hireDriver.png" alt="Driver Icon" />
+                        src="img/hireDriver.webp" alt="Driver Icon" />
                 </div>
 
                 <div class="p-4">
@@ -660,7 +660,7 @@
   style=" left: calc(100% + var(--carousel-item-gap)); width: var(--carousel-item-width); height: 300px; animation-delay: calc(var(--carousel-duration)/var(--items)*0*-1);">
 
   <div class="w-full h-[160px]">
-    <img src="img/innova.png" class="w-full h-full object-cover" />
+    <img src="img/innova.webp" class="w-full h-full object-cover" />
   </div>
 
   <div class="px-4 pt-3 pb-2">
@@ -687,7 +687,7 @@
   style="left: calc(100% + var(--carousel-item-gap)); width: var(--carousel-item-width); height: 300px; animation-delay: calc(var(--carousel-duration)/var(--items)*1*-1);">
 
   <div class="w-full h-[160px]">
-    <img src="img/tigor.png" class="w-full h-full object-cover" />
+    <img src="img/tigor.webp" class="w-full h-full object-cover" />
   </div>
 
   <div class="px-4 pt-3 pb-2">
@@ -714,7 +714,7 @@
   style="left: calc(100% + var(--carousel-item-gap)); width: var(--carousel-item-width); height: 300px; animation-delay: calc(var(--carousel-duration)/var(--items)*2*-1);">
 
   <div class="w-full h-[160px]">
-    <img src="img/city.png" class="w-full h-full object-cover" />
+    <img src="img/city.webp" class="w-full h-full object-cover" />
   </div>
 
   <div class="px-4 pt-3 pb-2">
@@ -741,7 +741,7 @@
   style="left: calc(100% + var(--carousel-item-gap)); width: var(--carousel-item-width); height: 300px; animation-delay: calc(var(--carousel-duration)/var(--items)*3*-1);">
 
   <div class="w-full h-[160px]">
-    <img src="img/scorpio.png" class="w-full h-full object-cover" />
+    <img src="img/scorpio.webp" class="w-full h-full object-cover" />
   </div>
 
   <div class="px-4 pt-3 pb-2">
@@ -768,7 +768,7 @@
   style="left: calc(100% + var(--carousel-item-gap)); width: var(--carousel-item-width); height: 300px; animation-delay: calc(var(--carousel-duration)/var(--items)*4*-1);">
 
   <div class="w-full h-[160px]">
-    <img src="img/ciaz.png" class="w-full h-full object-cover" />
+    <img src="img/ciaz.webp" class="w-full h-full object-cover" />
   </div>
 
   <div class="px-4 pt-3 pb-2">
@@ -795,7 +795,7 @@
   style="left: calc(100% + var(--carousel-item-gap)); width: var(--carousel-item-width); height: 300px; animation-delay: calc(var(--carousel-duration)/var(--items)*5*-1);">
 
   <div class="w-full h-[160px]">
-    <img src="img/creta.png" class="w-full h-full object-cover" />
+    <img src="img/creta.webp" class="w-full h-full object-cover" />
   </div>
 
   <div class="px-4 pt-3 pb-2">
@@ -838,28 +838,28 @@
 
                         <!-- Item 1 -->
                         <div class="duration-700 ease-in-out" data-carousel-item="active">
-                            <img src="img/tadobaTiger.png"
+                            <img src="img/tadobaTiger.webp"
                                 class="absolute block w-full h-full object-cover top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"
                                 alt="tiger image">
                         </div>
 
                         <!-- Item 2 -->
                         <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                            <img src="img/deer.png"
+                            <img src="img/deer.webp"
                                 class="absolute block w-full h-full object-cover top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"
                                 alt="deer image">
                         </div>
 
                         <!-- Item 3 -->
                         <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                            <img src="img/safari.jpg"
+                            <img src="img/safari.webp"
                                 class="absolute block w-full h-full object-cover top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"
                                 alt="safari image">
                         </div>
 
                         <!-- Item 4 -->
                         <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                            <img src="img/tiger2.png"
+                            <img src="img/tiger2.webp"
                                 class="absolute block w-full h-full object-cover top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"
                                 alt="tiger image">
                         </div>

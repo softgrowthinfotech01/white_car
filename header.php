@@ -21,7 +21,7 @@
 
     <!-- Logo -->
    <div class="md:pl-32">
-  <img src="img/logo_white.png" 
+  <img src="img/logo_white.webp" 
        class="h-10 w-auto md:h-16 my-3" 
        alt="Logo">
 </div>
@@ -78,7 +78,7 @@
     <!-- TAB 1 -->
     <a href="feedback" class="flex flex-col items-center py-2">
       <div class="w-10 h-10 rounded-xl flex items-center justify-center mb-1 bg-[#d1e7f0]">
-        <img src="img/feedback.png" class="w-6 h-6 object-contain">
+        <img src="img/feedback.webp" class="w-6 h-6 object-contain">
       </div>
       <span class="text-[11px] font-semibold">Feedback</span>
     </a>
@@ -86,7 +86,7 @@
     <!-- TAB 2 -->
     <a href="driverList" class="flex flex-col items-center py-2">
       <div class="w-10 h-10 rounded-xl flex items-center justify-center mb-1 bg-[#d1e7f0]">
-        <img src="img/hireDriverIcon.png" class="w-6 h-6 object-contain">
+        <img src="img/hireDriverIcon.webp" class="w-6 h-6 object-contain">
       </div>
       <span class="text-[11px] font-semibold">Hire Driver</span>
     </a>
@@ -94,7 +94,7 @@
     <!-- TAB 3 -->
     <a href="hireDriver" class="flex flex-col items-center py-2">
       <div class="w-10 h-10 rounded-xl flex items-center justify-center mb-1 bg-[#d1e7f0]">
-        <img src="img/shareCar.png" class="w-6 h-6 object-contain">
+        <img src="img/shareCar.webp" class="w-6 h-6 object-contain">
       </div>
       <span class="text-[11px] font-semibold">Share Car</span>
     </a>
@@ -102,7 +102,7 @@
     <!-- TAB 4 -->
     <a href="complaint" class="flex flex-col items-center py-2">
       <div class="w-10 h-10 rounded-xl flex items-center justify-center mb-1 bg-[#d1e7f0]">
-        <img src="img/complaint.png" class="w-6 h-6 object-contain">
+        <img src="img/complaint.webp" class="w-6 h-6 object-contain">
       </div>
       <span class="text-[11px] font-semibold">Complaint</span>
     </a>

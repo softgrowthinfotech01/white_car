@@ -67,7 +67,7 @@ include_once "header.php";?>
         <div class="flex flex-col md:flex-row">
 
           <div class="w-full md:w-1/2 overflow-hidden  flex items-center justify-center ">
-            <img src="img/15seater.png"
+            <img src="img/15seater.webp"
                  class="w-full h-full object-cover hover:scale-110 transition duration-500">
           </div>
 
@@ -94,7 +94,7 @@ include_once "header.php";?>
         <div class="flex flex-col md:flex-row">
 
           <div class="w-full md:w-1/2 overflow-hidden  flex items-center justify-center ">
-            <img src="img/20seater.png"
+            <img src="img/20seater.webp"
                  class="w-full h-full object-cover hover:scale-110 transition duration-500">
           </div>
 
@@ -121,7 +121,7 @@ include_once "header.php";?>
         <div class="flex flex-col md:flex-row">
 
            <div class="w-full md:w-1/2 overflow-hidden  flex items-center justify-center ">
-            <img src="img/26seater.png"
+            <img src="img/26seater.webp"
                  class="w-full h-full object-cover hover:scale-110 transition duration-500">
           </div>
 

@@ -36,7 +36,7 @@ include_once "header.php";?>
       <div class="flex justify-center mb-6">
         <span class="h-20 w-20 bg-sky-500 rounded-full flex items-center justify-center
                      group-hover:bg-sky-600 transition duration-300">
-          <img src="img/bookCab.png" class="w-12 h-12 object-contain" />
+          <img src="img/bookCab.webp" class="w-12 h-12 object-contain" />
         </span>
       </div>
 
@@ -53,7 +53,7 @@ include_once "header.php";?>
       <div class="flex justify-center mb-6">
         <span class="h-20 w-20 bg-sky-500 rounded-full flex items-center justify-center
                      group-hover:bg-sky-600 transition duration-300">
-          <img src="img/hourlyCab.png" class="w-12 h-12 object-contain" />
+          <img src="img/hourlyCab.webp" class="w-12 h-12 object-contain" />
         </span>
       </div>
 
@@ -70,7 +70,7 @@ include_once "header.php";?>
       <div class="flex justify-center mb-6">
         <span class="h-20 w-20 bg-sky-500 rounded-full flex items-center justify-center
                      group-hover:bg-sky-600 transition duration-300">
-          <img src="img/bookTraveller.png" class="w-12 h-12 object-contain" />
+          <img src="img/bookTraveller.webp" class="w-12 h-12 object-contain" />
         </span>
       </div>
 
@@ -87,7 +87,7 @@ include_once "header.php";?>
       <div class="flex justify-center mb-6">
         <span class="h-20 w-20 bg-sky-500 rounded-full flex items-center justify-center
                      group-hover:bg-sky-600 transition duration-300">
-          <img src="img/hireDriver.png" class="w-12 h-12 object-contain" />
+          <img src="img/hireDriver.webp" class="w-12 h-12 object-contain" />
         </span>
       </div>
 

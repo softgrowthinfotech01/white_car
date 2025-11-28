@@ -57,7 +57,7 @@ include_once "header.php";?>
         <div class="flex flex-col md:flex-row">
 
           <div class="w-full md:w-1/2 overflow-hidden  flex items-center justify-center ">
-            <img src="img/city.png"
+            <img src="img/city.webp"
                  class="w-full h-full object-cover hover:scale-110 transition duration-500">
           </div>
 
@@ -84,7 +84,7 @@ include_once "header.php";?>
         <div class="flex flex-col md:flex-row">
 
           <div class="w-full md:w-1/2 overflow-hidden  flex items-center justify-center ">
-            <img src="img/innova.png"
+            <img src="img/innova.webp"
                  class="w-full h-full object-cover hover:scale-110 transition duration-500">
           </div>
 
@@ -111,7 +111,7 @@ include_once "header.php";?>
         <div class="flex flex-col md:flex-row">
 
            <div class="w-full md:w-1/2 overflow-hidden  flex items-center justify-center ">
-            <img src="img/scorpio.png"
+            <img src="img/scorpio.webp"
                  class="w-full h-full object-cover hover:scale-110 transition duration-500">
           </div>
 

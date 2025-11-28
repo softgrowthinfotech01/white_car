@@ -46,7 +46,7 @@ include_once "header.php";?>
              h-14 w-14 flex items-center justify-center">
 
   <!-- WHITE CAR ICON -->
-  <img src="img/car_icon.png" 
+  <img src="img/car_icon.webp" 
        alt="car icon"
        class="w-9 h-9 invert">
 
@@ -107,7 +107,7 @@ include_once "header.php";?>
              h-14 w-14 flex items-center justify-center">
 
   <!-- WHITE CAR ICON -->
-  <img src="img/car_icon.png" 
+  <img src="img/car_icon.webp" 
        alt="car icon"
        class="w-9 h-9 invert">
 
@@ -163,7 +163,7 @@ include_once "header.php";?>
              h-14 w-14 flex items-center justify-center">
 
   <!-- WHITE CAR ICON -->
-  <img src="img/car_icon.png" 
+  <img src="img/car_icon.webp" 
        alt="car icon"
        class="w-9 h-9 invert">
 

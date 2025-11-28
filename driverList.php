@@ -41,7 +41,7 @@ include_once "header.php";?>
       <div class="flex items-start justify-between">
         <div class="flex items-center gap-3">
             <!-- Image -->
-          <img src="img/main_background1.png" alt="car" class="w-20 h-20 object-cover rounded-full"/>
+          <img src="img/main_background1.webp" alt="car" class="w-20 h-20 object-cover rounded-full"/>
           <div>
             <div class="font-semibold text-lg text-gray-800">Abhishek Rathod</div>
             <!-- icon -->
@@ -79,7 +79,7 @@ include_once "header.php";?>
       <div class="flex items-start justify-between">
         <div class="flex items-center gap-3">
             <!-- Image -->
-          <img src="img/main_background1.png" alt="car" class="w-20 h-20 object-cover rounded-full"/>
+          <img src="img/main_background1.webp" alt="car" class="w-20 h-20 object-cover rounded-full"/>
           <div>
             <div class="font-semibold text-lg text-gray-800">Nikhil Chaudhari</div>
             <!-- icon -->
@@ -119,7 +119,7 @@ include_once "header.php";?>
       <div class="flex items-start justify-between">
         <div class="flex items-center gap-3">
             <!-- Image -->
-          <img src="img/main_background1.png" alt="car" class="w-20 h-20 object-cover rounded-full"/>
+          <img src="img/main_background1.webp" alt="car" class="w-20 h-20 object-cover rounded-full"/>
           <div>
             <div class="font-semibold text-lg text-gray-800">Nikhil Chaudhari</div>
             <!-- icon -->
@@ -157,7 +157,7 @@ include_once "header.php";?>
       <div class="flex items-start justify-between">
         <div class="flex items-center gap-3">
             <!-- Image -->
-          <img src="img/main_background1.png" alt="car" class="w-20 h-20 object-cover rounded-full"/>
+          <img src="img/main_background1.webp" alt="car" class="w-20 h-20 object-cover rounded-full"/>
           <div>
             <div class="font-semibold text-lg text-gray-800">Rahul singh</div>
             <!-- icon -->
@@ -195,7 +195,7 @@ include_once "header.php";?>
       <div class="flex items-start justify-between">
         <div class="flex items-center gap-3">
             <!-- Image -->
-          <img src="img/main_background1.png" alt="car" class="w-20 h-20 object-cover rounded-full"/>
+          <img src="img/main_background1.webp" alt="car" class="w-20 h-20 object-cover rounded-full"/>
           <div>
             <div class="font-semibold text-lg text-gray-800">Abhishek Rathod</div>
             <!-- icon -->
@@ -233,7 +233,7 @@ include_once "header.php";?>
       <div class="flex items-start justify-between">
         <div class="flex items-center gap-3">
             <!-- Image -->
-          <img src="img/main_background1.png" alt="car" class="w-20 h-20 object-cover rounded-full"/>
+          <img src="img/main_background1.webp" alt="car" class="w-20 h-20 object-cover rounded-full"/>
           <div>
             <div class="font-semibold text-lg text-gray-800">Abhishek Rathod</div>
             <!-- icon -->
@@ -271,7 +271,7 @@ include_once "header.php";?>
       <div class="flex items-start justify-between">
         <div class="flex items-center gap-3">
             <!-- Image -->
-          <img src="img/main_background1.png" alt="car" class="w-20 h-20 object-cover rounded-full"/>
+          <img src="img/main_background1.webp" alt="car" class="w-20 h-20 object-cover rounded-full"/>
           <div>
             <div class="font-semibold text-lg text-gray-800">Abhishek Rathod</div>
             <!-- icon -->
@@ -309,7 +309,7 @@ include_once "header.php";?>
       <div class="flex items-start justify-between">
         <div class="flex items-center gap-3">
             <!-- Image -->
-          <img src="img/main_background1.png" alt="car" class="w-20 h-20 object-cover rounded-full"/>
+          <img src="img/main_background1.webp" alt="car" class="w-20 h-20 object-cover rounded-full"/>
           <div>
             <div class="font-semibold text-lg text-gray-800">Abhishek Rathod</div>
             <!-- icon -->

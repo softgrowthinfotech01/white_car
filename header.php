@@ -33,31 +33,31 @@
    
     <div class="flex space-x-8 font-medium md:pr-10">
 
-        <a href="#" class="color-primary-text border-b-2 border-[#0BA6DF] pb-1 font-semibold">
+        <a href="home.php" class="color-primary-text border-b-2 border-[#0BA6DF] pb-1 font-semibold">
             Home
         </a>
 
-        <a href="#" class="hover:text-[#0BA6DF] text-gray-700 transition duration-300">
+        <a href="services.php" class="hover:text-[#0BA6DF] text-gray-700 transition duration-300">
             Services
         </a>
 
-         <a href="#" class="hidden md:inline hover:text-[#0BA6DF] text-gray-700 transition">
+         <a href="feedback.php" class="hidden md:inline hover:text-[#0BA6DF] text-gray-700 transition">
             Feedback
         </a>
 
-        <a href="#" class="hidden md:inline hover:text-[#0BA6DF] text-gray-700 transition">
+        <a href="driverList.php" class="hidden md:inline hover:text-[#0BA6DF] text-gray-700 transition">
             Hire Driver
         </a>
 
-        <a href="#" class="hidden md:inline hover:text-[#0BA6DF] text-gray-700 transition">
+        <a href="hireDriver.php" class="hidden md:inline hover:text-[#0BA6DF] text-gray-700 transition">
             Share Car
         </a>
 
-        <a href="#" class="hidden md:inline hover:text-[#0BA6DF] text-gray-700 transition">
+        <a href="complaint.php" class="hidden md:inline hover:text-[#0BA6DF] text-gray-700 transition">
             Complaint
         </a>
 
-        <a href="#" class="hover:text-[#0BA6DF] text-gray-700 transition duration-300">
+        <a href="contact.php" class="hover:text-[#0BA6DF] text-gray-700 transition duration-300">
             Contact
         </a>
 
@@ -76,7 +76,7 @@
   <div class="grid grid-cols-4 text-center text-white">
 
     <!-- TAB 1 -->
-    <a href="#" class="flex flex-col items-center py-2">
+    <a href="feedback.php" class="flex flex-col items-center py-2">
       <div class="w-10 h-10 rounded-xl flex items-center justify-center mb-1 bg-[#d1e7f0]">
         <img src="img/feedback.png" class="w-6 h-6 object-contain">
       </div>
@@ -84,7 +84,7 @@
     </a>
 
     <!-- TAB 2 -->
-    <a href="#" class="flex flex-col items-center py-2">
+    <a href="driverList.php" class="flex flex-col items-center py-2">
       <div class="w-10 h-10 rounded-xl flex items-center justify-center mb-1 bg-[#d1e7f0]">
         <img src="img/hireDriverIcon.png" class="w-6 h-6 object-contain">
       </div>
@@ -92,7 +92,7 @@
     </a>
 
     <!-- TAB 3 -->
-    <a href="#" class="flex flex-col items-center py-2">
+    <a href="hireDriver.php" class="flex flex-col items-center py-2">
       <div class="w-10 h-10 rounded-xl flex items-center justify-center mb-1 bg-[#d1e7f0]">
         <img src="img/shareCar.png" class="w-6 h-6 object-contain">
       </div>
@@ -100,7 +100,7 @@
     </a>
 
     <!-- TAB 4 -->
-    <a href="#" class="flex flex-col items-center py-2">
+    <a href="complaint.php" class="flex flex-col items-center py-2">
       <div class="w-10 h-10 rounded-xl flex items-center justify-center mb-1 bg-[#d1e7f0]">
         <img src="img/complaint.png" class="w-6 h-6 object-contain">
       </div>

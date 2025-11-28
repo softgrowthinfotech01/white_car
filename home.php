@@ -183,7 +183,7 @@
                             class="w-full p-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-[#0BA6DF] focus:border-[#0BA6DF] transition" />
 
                         <div class="flex justify-center pt-2">
-                            <a href="onewayCar.php"
+                            <a href="shareCar.php"
                                 class="color-primary color-primary-hover text-white font-semibold py-3 px-8 rounded-full shadow-lg transition duration-300 transform hover:scale-105">
                                 Search Car
                             </a>
@@ -218,7 +218,7 @@
                                         </h1>
 
                                         <!-- Button -->
-                                        <a href="#" class="inline-flex items-center justify-center text-white bg-blue-600 
+                                        <a href="roundTrip.php" class="inline-flex items-center justify-center text-white bg-blue-600 
                   hover:bg-blue-700 border border-transparent shadow-sm
                   font-medium rounded-xl text-sm px-4 py-2.5 transition-all">
                                             See More
@@ -256,7 +256,7 @@
                                         </h1>
 
                                         <!-- Button -->
-                                        <a href="#" class="inline-flex items-center justify-center text-white bg-blue-600 
+                                        <a href="roundTrip.php" class="inline-flex items-center justify-center text-white bg-blue-600 
                   hover:bg-blue-700 border border-transparent shadow-sm
                   font-medium rounded-xl text-sm px-4 py-2.5 transition-all">
                                             See More
@@ -292,7 +292,7 @@
                                         </h1>
 
                                         <!-- Button -->
-                                        <a href="#" class="inline-flex items-center justify-center text-white bg-blue-600 
+                                        <a href="roundTrip.php" class="inline-flex items-center justify-center text-white bg-blue-600 
                   hover:bg-blue-700 border border-transparent shadow-sm
                   font-medium rounded-xl text-sm px-4 py-2.5 transition-all">
                                             See More
@@ -338,7 +338,7 @@
                                         </h1>
 
                                         <!-- Button -->
-                                        <a href="#" class="inline-flex items-center justify-center text-white bg-blue-600 
+                                        <a href="perHour.php" class="inline-flex items-center justify-center text-white bg-blue-600 
                   hover:bg-blue-700 border border-transparent shadow-sm
                   font-medium rounded-xl text-sm px-4 py-2.5 transition-all">
                                             See More
@@ -376,7 +376,7 @@
                                         </h1>
 
                                         <!-- Button -->
-                                        <a href="#" class="inline-flex items-center justify-center text-white bg-blue-600 
+                                        <a href="perHour.php" class="inline-flex items-center justify-center text-white bg-blue-600 
                   hover:bg-blue-700 border border-transparent shadow-sm
                   font-medium rounded-xl text-sm px-4 py-2.5 transition-all">
                                             See More
@@ -413,7 +413,7 @@
                                         </h1>
 
                                         <!-- Button -->
-                                        <a href="#" class="inline-flex items-center justify-center text-white bg-blue-600 
+                                        <a href="perHour.php" class="inline-flex items-center justify-center text-white bg-blue-600 
                   hover:bg-blue-700 border border-transparent shadow-sm
                   font-medium rounded-xl text-sm px-4 py-2.5 transition-all">
                                             See More
@@ -460,7 +460,7 @@
                                         </h1>
 
                                         <!-- Button -->
-                                        <a href="#" class="inline-flex items-center justify-center text-white bg-blue-600 
+                                        <a href="miniBus.php" class="inline-flex items-center justify-center text-white bg-blue-600 
                   hover:bg-blue-700 border border-transparent shadow-sm
                   font-medium rounded-xl text-sm px-4 py-2.5 transition-all">
                                             See More
@@ -498,7 +498,7 @@
                                         </h1>
 
                                         <!-- Button -->
-                                        <a href="#" class="inline-flex items-center justify-center text-white bg-blue-600 
+                                        <a href="miniBus.php" class="inline-flex items-center justify-center text-white bg-blue-600 
                   hover:bg-blue-700 border border-transparent shadow-sm
                   font-medium rounded-xl text-sm px-4 py-2.5 transition-all">
                                             See More
@@ -535,7 +535,7 @@
                                         </h1>
 
                                         <!-- Button -->
-                                        <a href="#" class="inline-flex items-center justify-center text-white bg-blue-600 
+                                        <a href="miniBus.php" class="inline-flex items-center justify-center text-white bg-blue-600 
                   hover:bg-blue-700 border border-transparent shadow-sm
                   font-medium rounded-xl text-sm px-4 py-2.5 transition-all">
                                             See More

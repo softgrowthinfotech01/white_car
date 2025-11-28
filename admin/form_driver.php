@@ -33,7 +33,7 @@
     <!-- ===== Preloader End ===== -->
 
     <!-- ===== Page Wrapper Start ===== -->
-    <div class="flex h-screen overflow-hidden">
+    <div class="flex h-screen bg-gray-800 overflow-hidden">
 
         <!-- ===== Sidebar Start ===== -->
         <?php
@@ -71,8 +71,8 @@
                             <div class="grid grid-cols-1 gap-6 sm:grid-cols-1">
                                 <div class="space-y-6">
                                     <div
-                                        class="rounded-2xl border border-gray-200 bg-white ">
-                                        <div class="px-5 py-4 sm:px-6 sm:py-5">
+                                        class="rounded-2xl mt-15 bg-white ">
+                                        <div class="px-5 bg-rose-100 rounded-t-[15px] py-4 sm:px-6 sm:py-5">
                                             <h3 class="text-base font-medium text-gray-800 ">
                                                 Driver Details
                                             </h3>
@@ -146,7 +146,7 @@
                                                     class="focus:border-ring-brand-300 shadow-theme-xs focus:file:ring-brand-300 h-11 w-full overflow-hidden rounded-lg border border-gray-300 bg-transparent text-sm text-gray-500 transition-colors file:mr-5 file:border-collapse file:cursor-pointer file:rounded-l-lg file:border-0 file:border-r file:border-solid file:border-gray-200 file:bg-gray-50 file:py-3 file:pr-3 file:pl-3.5 file:text-sm file:text-gray-700 placeholder:text-gray-400 hover:file:bg-gray-100 focus:outline-hidden " />
                                             </div>
                                         </div>
-                                        <div class="mb-6 flex justify-center items-center gap-4">
+                                        <div class="mb-6 pb-2 flex justify-center items-center gap-4">
                                             <button type=""
                                                 class=" inline-flex items-center  p-0.5 overflow-hidden text-sm font-medium text-heading rounded group bg-gradient-to-br from-green-400 to-blue-600 group-hover:from-green-400 group-hover:to-blue-600 hover:text-white  focus:ring-4 focus:outline-none focus:ring-green-200 ">
                                                 <span

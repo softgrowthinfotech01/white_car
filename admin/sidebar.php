@@ -10,18 +10,18 @@
 
 <body>
     <aside :class="sidebarToggle ? 'translate-x-0 lg:w-[90px]' : '-translate-x-full'"
-        class="sidebar fixed left-0 top-0 z-9999 flex h-screen w-[290px] flex-col overflow-y-hidden border-r border-gray-200 bg-white  :bg-white px-5  :border-gray-800  :bg-black lg:static lg:translate-x-0">
+        class="sidebar fixed left-0 top-0 z-9999 flex h-screen w-[290px] flex-col overflow-y-hidden border-r-[5px] border-gray-300  bg-gray-300 lg:static lg:translate-x-0">
         
 <!-- SIDEBAR HEADER -->
 <div :class="sidebarToggle ? 'justify-center' : 'justify-between'"
-    class="flex items-center gap-3 py-6 px-3 border-b border-gray-300 bg-white">
+    class="flex items-center gap-3 py-[6px] px-3 bg-gray-300">
 
     
     <div class="flex items-center gap-3"
          :class="sidebarToggle ? 'lg:hidden' : ''">
 
        
-        <div class="h-18 w-50 flex items-center justify-center rounded-md border border-gray-300 bg-gray-100 ms-3">
+        <div class="h-18 w-50 flex items-center justify-center rounded-lg  bg-gray-300 ms-3">
            <img src="img/logo_white.png" 
      class="h-18 w-50 rounded-md object-cover border border-gray-300 pt-2" />
         </div>
@@ -34,14 +34,14 @@
 
 
 <!-- SIDEBAR BODY -->
-<div class="flex flex-col overflow-y-auto duration-300 ease-linear no-scrollbar">
+<div class="flex flex-col py-15 px-7 overflow-y-auto duration-300 ease-linear no-scrollbar">
 
     <nav x-data="{selected: $persist('Dashboard')}">
 
         
-        <h3 class="mt-6 mb-4 text-xs font-semibold uppercase text-gray-500"
+        <h3 class="mt-6 mb-4 text-xs font-semibold uppercase text-gray-950"
             :class="sidebarToggle ? 'lg:hidden' : ''">
-            MENU
+            <span class="bg-gray-100 p-1 rounded-md">MENU</span>
         </h3>
 
         <ul class="flex flex-col gap-8">

@@ -33,7 +33,7 @@
     <!-- ===== Preloader End ===== -->
 
     <!-- ===== Page Wrapper Start ===== -->
-    <div class="flex h-screen overflow-hidden">
+    <div class="flex h-screen bg-gray-800 overflow-hidden">
 
         <!-- ===== Sidebar Start ===== -->
         <?php
@@ -62,7 +62,7 @@
 
             <!-- ===== Main Content Start ===== -->
             <main>
-                <div class="p-4 mx-auto md:p-6">
+                <div class="p-4 mx-auto md:p-6 ">
                     <div class="grid grid-cols-6 gap-4 md:gap-6">
                         <div class="col-span-12 space-y-6 xl:col-span-7">
 
@@ -71,14 +71,14 @@
                             <div class="grid grid-cols-1 gap-6 sm:grid-cols-1">
                                 <div class="space-y-6">
                                     <div
-                                        class="rounded-2xl border border-gray-200 bg-white dark:border-gray-800 dark:bg-white/[0.03]">
-                                        <div class="px-5 py-4 sm:px-6 sm:py-5">
-                                            <h3 class="text-base font-medium text-gray-800 dark:text-white/90">
+                                        class="rounded-2xl mt-20 bg-white ">
+                                        <div class="px-5 bg-rose-100 rounded-t-[15px] py-4 sm:px-6  sm:py-5">
+                                            <h3 class="text-base  font-medium text-gray-800 ">
                                                 Vehicle Details
                                             </h3>
                                         </div>
                                         <div
-                                            class="grid grid-cols-1 md:grid-cols-2 gap-4 space-y-6 border-t border-gray-100 p-5 sm:p-6 dark:border-gray-800">
+                                            class="grid grid-cols-1  md:grid-cols-2 gap-4 space-y-6  border-t border-gray-100 p-5 sm:p-6  ">
 
                                             <div>
                                                 <label for="vehicleName"
@@ -121,8 +121,8 @@
                                                 <div x-data="{ isOptionSelected: false }"
                                                     class="relative z-20 bg-transparent">
                                                     <select id="VehicleType"
-                                                        class="shadow-theme-xs focus:border-brand-300 focus:ring-brand-500/10  h-11 w-full appearance-none rounded-lg border border-gray-300 bg-transparent bg-none px-4 py-2.5 pr-11 text-sm text-gray-800 placeholder:text-gray-400 focus:ring-3 focus:outline-hidden "
-                                                        :class="isOptionSelected && 'text-gray-800 dark:text-white/90'"
+                                                        class="shadow-theme-xs focus:border-brand-300 focus:ring-brand-500/10  h-11 w-full  appearance-none rounded-lg border border-gray-300 bg-transparent bg-none px-4 py-2.5 pr-11 text-sm text-gray-800 placeholder:text-gray-400 focus:ring-3 focus:outline-hidden "
+                                                        :class="isOptionSelected && 'text-gray-800'"
                                                         @change="isOptionSelected = true">
                                                         <option value=""
                                                             class="text-gray-700 ">
@@ -142,7 +142,7 @@
                                                         </option>
                                                     </select>
                                                     <span
-                                                        class="pointer-events-none absolute top-1/2 right-4 z-30 -translate-y-1/2 text-gray-700 dark:text-gray-400">
+                                                        class="pointer-events-none absolute top-1/2 right-4 z-30 -translate-y-1/2 text-gray-700 ">
                                                         <svg class="stroke-current" width="20" height="20"
                                                             viewBox="0 0 20 20" fill="none"
                                                             xmlns="http://www.w3.org/2000/svg">
@@ -154,19 +154,19 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="mb-6 flex justify-center items-center gap-4">
+                                        <div class="mb-6 pb-2 flex justify-center items-center gap-4">
                                             <button type=""
-                                                class=" inline-flex items-center  p-0.5 overflow-hidden text-sm font-medium text-heading rounded group bg-gradient-to-br from-green-400 to-blue-600 group-hover:from-green-400 group-hover:to-blue-600 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-green-200 dark:focus:ring-green-800">
+                                                class=" inline-flex items-center  p-0.5 overflow-hidden text-sm font-medium text-heading rounded group bg-gradient-to-br from-green-400 to-blue-600 group-hover:from-green-400 group-hover:to-blue-600 hover:text-white  focus:ring-4 focus:outline-none focus:ring-green-200">
                                                 <span
-                                                    class=" relative px-10 py-2.5 transition-all ease-in duration-75 bg-neutral-primary-soft rounded group-hover:bg-transparent group-hover:dark:bg-transparent leading-5">
+                                                    class=" relative px-10 py-2.5 transition-all ease-in duration-75 bg-neutral-primary-soft rounded group-hover:bg-transparent leading-5">
                                                     Save
                                                 </span>
                                             </button>
 
                                             <button type=""
-                                                class="relative inline-flex items-center p-0.5 overflow-hidden text-sm font-medium text-heading rounded group bg-gradient-to-br from-pink-500 to-orange-400 group-hover:from-pink-500 group-hover:to-orange-400 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-pink-200 dark:focus:ring-pink-800">
+                                                class="relative inline-flex items-center p-0.5 overflow-hidden text-sm font-medium text-heading rounded group bg-gradient-to-br from-pink-500 to-orange-400 group-hover:from-pink-500 group-hover:to-orange-400 hover:text-white  focus:ring-4 focus:outline-none focus:ring-pink-200">
                                                 <span
-                                                    class=" relative px-8 py-2.5 transition-all ease-in duration-75 bg-neutral-primary-soft rounded group-hover:bg-transparent group-hover:dark:bg-transparent leading-5">
+                                                    class=" relative px-8 py-2.5 transition-all ease-in duration-75 bg-neutral-primary-soft rounded group-hover:bg-transparent leading-5">
                                                     Cancel
                                                 </span>
                                             </button>

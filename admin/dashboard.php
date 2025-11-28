@@ -11,7 +11,10 @@
     </title>
 
     <link rel="stylesheet" href="css/tail.css">
-    <!-- <link rel="stylesheet" href="a.css"> -->
+    <!-- <link rel="stylesheet" href="a.css"> -->   
+
+
+    <!-- dddd -->
 
     <!--  -->
   
@@ -44,7 +47,7 @@ include_once 'sidebar.php';
  <!-- ===== Sidebar End ===== -->
 
         <!-- ===== Content Area Start ===== -->
-        <div class="relative flex flex-col flex-1 overflow-x-hidden overflow-y-auto">
+        <div class="relative bg-gray-800 flex flex-col flex-1 overflow-x-hidden overflow-y-auto">
             <!-- Small Device Overlay Start -->
             <div @click="sidebarToggle = false" :class="sidebarToggle ? 'block lg:hidden' : 'hidden'"
                 class="fixed w-full h-screen z-9 bg-gray-900/50"></div>
@@ -61,11 +64,11 @@ include_once 'sidebar.php';
             <!-- ===== Header End ===== -->
 
             <!-- ===== Main Content Start ===== -->
-       <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 p-6">
+       <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 p-6 pt-20">
 
     <!-- Car Rentals -->
-    <a href="list_carRental.php"  class="flex items-center gap-4 p-5 bg-white border border-gray-300 rounded-xl shadow-sm">
-        <div class="p-3 bg-gray-100 rounded-lg">
+    <a href="list_carRental.php"  class="flex items-center gap-4 p-5 bg-white border border-gray-300 rounded-xl shadow-sm hover:scale-95">
+        <div class=" p-3 bg-gray-100 rounded-lg">
             <svg class="w-7 h-7 text-gray-700" fill="none" stroke="currentColor" stroke-width="1.5"
                 viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round"
@@ -74,14 +77,14 @@ include_once 'sidebar.php';
                     d="M4.5 10.5l1.5-4.5h12l1.5 4.5" />
             </svg>
         </div>
-        <div>
+        <div  >
             <p class="text-gray-600 text-sm">Total Car Rentals</p>
             <h2 class="text-2xl font-bold text-gray-900">120</h2>
         </div>
 </a>
 
     <!-- Driver Count -->
-    <a href="list_driver.php"  class="flex items-center gap-4 p-5 bg-white border border-gray-300 rounded-xl shadow-sm">
+    <a href="list_driver.php"  class="flex items-center gap-4 p-5 bg-white border border-gray-300 rounded-xl shadow-sm hover:scale-95">
         <div class="p-3 bg-gray-100 rounded-lg">
             <svg class="w-7 h-7 text-gray-700" fill="none" stroke="currentColor" stroke-width="1.5"
                 viewBox="0 0 24 24">
@@ -98,7 +101,7 @@ include_once 'sidebar.php';
 </a>
 
     <!-- Sharing Cab Drivers -->
-    <a href="list_sharingCabDriver.php"  class="flex items-center gap-4 p-5 bg-white border border-gray-300 rounded-xl shadow-sm">
+    <a href="list_sharingCabDriver.php"  class="flex items-center gap-4 p-5 bg-white border border-gray-300 rounded-xl shadow-sm hover:scale-95">
         <div class="p-3 bg-gray-100 rounded-lg">
             <svg class="w-7 h-7 text-gray-700" fill="none" stroke="currentColor" stroke-width="1.5"
                 viewBox="0 0 24 24">
@@ -115,7 +118,7 @@ include_once 'sidebar.php';
 </a>
 
     <!-- Complaints -->
-    <a href="list_complaint.php"  class="flex items-center gap-4 p-5 bg-white border border-gray-300 rounded-xl shadow-sm">
+    <a href="list_complaint.php"  class="flex items-center gap-4 p-5  bg-white border border-gray-300 rounded-xl shadow-sm hover:scale-95">
         <div class="p-3 bg-gray-100 rounded-lg">
             <svg class="w-7 h-7 text-gray-700" fill="none" stroke="currentColor" stroke-width="1.5"
                 viewBox="0 0 24 24">
@@ -133,7 +136,7 @@ include_once 'sidebar.php';
 </a>
 
     <!-- Feedback -->
-    <a href="list_feedback.php"  class="flex items-center gap-4 p-5 bg-white border border-gray-300 rounded-xl shadow-sm">
+    <a href="list_feedback.php"  class="flex items-center gap-4 p-5 bg-white border border-gray-300 rounded-xl shadow-sm hover:scale-95">
         <div class="p-3 bg-gray-100 rounded-lg">
             <svg class="w-7 h-7 text-gray-700" fill="none" stroke="currentColor" stroke-width="1.5"
                 viewBox="0 0 24 24">

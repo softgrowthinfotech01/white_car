@@ -12,6 +12,10 @@
 
     <link rel="stylesheet" href="css/tail.css">
     <!-- <link rel="stylesheet" href="a.css"> -->
+     <link href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css" rel="stylesheet">
+	 <!--Responsive Extension Datatables CSS-->
+	 <link href="https://cdn.datatables.net/responsive/2.2.3/css/responsive.dataTables.min.css" rel="stylesheet">
+
 
     <!--  -->
 
@@ -33,7 +37,7 @@
     <!-- ===== Preloader End ===== -->
 
     <!-- ===== Page Wrapper Start ===== -->
-    <div class="flex h-screen overflow-hidden">
+    <div class="flex h-screen bg-gray-800 overflow-hidden">
 
         <!-- ===== Sidebar Start ===== -->
         <?php
@@ -64,11 +68,11 @@
           <main class="px-4 py-5 md:px-8">
     <div class="max-w-5xl mx-auto">
 
-        <div class="rounded-xl border border-gray-200 bg-white  :border-gray-800  :bg-white/5 shadow-sm">
+        <div class="rounded-xl mt-20 bg-white shadow-sm">
 
             <!-- Header -->
-            <div class="px-4 py-3 border-b border-gray-100  :border-gray-800">
-                <h3 class="text-lg font-semibold text-gray-800  :text-white">
+            <div class="px-4 py-3 bg-rose-100 rounded-t-[15px]">
+                <h3 class="text-lg font-semibold text-gray-800">
                      Feedback
                 </h3>
             </div>
@@ -78,17 +82,20 @@
 
                 <table class="min-w-full text-left border-separate border-spacing-y-2">
 
-                    <thead>
-                        <tr class="bg-gray-50  :bg-gray-900/20">
-                            <th class="p-3 text-sm font-medium text-gray-600">Name</th>
-                            <th class="p-3 text-sm font-medium text-gray-600">Mobile Number</th>
-                            <th class="p-3 text-sm font-medium text-gray-600">Email</th>
-                            <th class="p-3 text-sm font-medium text-gray-600">Feedback</th>
-                            
-                        </tr>
-                    </thead>
-
-                    <tbody class="text-sm">
+                    
+                         <table id="example" class="stripe hover" style="width:100%; padding-top: 1em;  padding-bottom: 1em;">
+					<thead>
+						<tr>
+							<th data-priority="1">Name</th>
+							<th data-priority="2">Mobile Number</th>
+							<th data-priority="3">Email</th>
+							<th data-priority="4">Feedback</th>
+							
+							
+						</tr>
+					</thead>
+					<tbody class="text-center">
+                        
 
                         <tr class="bg-white  :bg-gray-900 rounded-lg shadow-sm">
                             <td class="p-3 text-gray-700  :text-gray-300">Salman</td>
@@ -150,7 +157,23 @@
     </div>
     <!-- ===== Page Wrapper End ===== -->
 
-
+ <!-- jQuery -->
+	<script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+		
+	<!--Datatables -->
+	<script src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
+	<script src="https://cdn.datatables.net/responsive/2.2.3/js/dataTables.responsive.min.js"></script>
+	<script>
+		$(document).ready(function() {
+			
+			var table = $('#example').DataTable( {
+					responsive: true
+				} )
+				.columns.adjust()
+				.responsive.recalc();
+		} );
+	
+	</script>
 
     <script defer src="https://cdn.jsdelivr.net/npm/@alpinejs/persist@3.x.x/dist/cdn.min.js"></script>
     <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>

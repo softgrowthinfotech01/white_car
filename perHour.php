@@ -61,20 +61,12 @@ include_once "header.php";?>
         </h3>
 
         <!-- TITLE -->
-        <h2 class="text-lg font-bold text-gray-900 text-center mt-4 group-hover:text-white">
-            Hourly Car Rental
+        <h2 class="text-lg font-bold text-gray-900 text-center my-4 group-hover:text-white">
+            Suzuki Swift
         </h2>
-        <p class="text-sm text-gray-600 text-center group-hover:text-white/80">
-            Perfect For Your City Ride 🚕
-        </p>
+       
 
-        <!-- PRICES -->
-        <div class="flex justify-center items-center gap-2 mt-4">
-            <span class="line-through text-gray-400 text-sm group-hover:text-white/70">₹ 500</span>
-            <span class="bg-blue-100 text-blue-800 px-2 py-0.5 rounded-full text-xs font-semibold group-hover:bg-white group-hover:text-sky-600">
-                SAVE 40%
-            </span>
-        </div>
+        
 
         <p class="text-3xl font-bold text-center mt-1 group-hover:text-white">
             ₹ 299<span class="text-lg">/Hr</span>
@@ -128,19 +120,12 @@ include_once "header.php";?>
                 7 SEATER
             </h3>
 
-            <h2 class="text-lg font-bold text-gray-900 text-center mt-4 group-hover:text-white">
-                Hourly Car Rental
+            <h2 class="text-lg font-bold text-gray-900 text-center my-4 group-hover:text-white">
+                Toyota Innova
             </h2>
-            <p class="text-sm text-gray-600 text-center group-hover:text-white/80">
-                Perfect For Your City Ride 🚕
-            </p>
+           
 
-            <div class="flex justify-center items-center gap-2 mt-4">
-                <span class="line-through text-gray-400 text-sm group-hover:text-white/70">₹ 600</span>
-                <span class="bg-blue-100 text-blue-800 px-2 py-0.5 rounded-full text-xs font-semibold group-hover:bg-white group-hover:text-sky-600">
-                    SAVE 42%
-                </span>
-            </div>
+          
 
             <p class="text-3xl font-bold text-center mt-1 group-hover:text-white">
                 ₹ 349<span class="text-lg">/Hr</span>
@@ -191,19 +176,11 @@ include_once "header.php";?>
                 9 SEATER
             </h3>
 
-            <h2 class="text-lg font-bold text-gray-900 text-center mt-4 group-hover:text-white">
-                Hourly Car Rental
+            <h2 class="text-lg font-bold text-gray-900 text-center my-4 group-hover:text-white">
+                Mahindra Scorpio
             </h2>
-            <p class="text-sm text-gray-600 text-center group-hover:text-white/80">
-                Perfect For Your City Ride 🚕
-            </p>
+            
 
-            <div class="flex justify-center items-center gap-2 mt-4">
-                <span class="line-through text-gray-400 text-sm group-hover:text-white/70">₹ 700</span>
-                <span class="bg-blue-100 text-blue-800 px-2 py-0.5 rounded-full text-xs font-semibold group-hover:bg-white group-hover:text-sky-600">
-                    SAVE 38%
-                </span>
-            </div>
 
             <p class="text-3xl font-bold text-center mt-1 group-hover:text-white">
                 ₹ 399<span class="text-lg">/Hr</span>

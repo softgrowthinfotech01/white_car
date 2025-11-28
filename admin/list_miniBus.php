@@ -7,7 +7,7 @@
         content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>
-        Car Rental List
+        Mini Bus List
     </title>
 
     <link rel="stylesheet" href="css/tail.css">
@@ -74,7 +74,7 @@
                         <!-- Header -->
                         <div class="px-4 py-3 bg-rose-100 rounded-t-[15px] ">
                             <h3 class="text-lg  font-semibold text-gray-800">
-                                Car Rental Details
+                                Mini Bus Details
                             </h3>
                         </div>
 
@@ -86,10 +86,10 @@
                         <table id="example" class="stripe hover" style="width:100%; padding-top: 1em;  padding-bottom: 1em;">
 					<thead>
 						<tr>
-							<th data-priority="1">Vehicle Name</th>
-							<th data-priority="2">Vehicle Number</th>
-							<th data-priority="3">Vehicle Photos</th>
-							<th data-priority="4">Vehicle Type</th>
+							<th data-priority="1">Vehicle Type</th>
+							<th data-priority="2">Travels Name</th>
+							<th data-priority="3">Vehicle Name</th>
+							<th data-priority="4">Vehicle Photos</th>
                             <th data-priority="5">Mobile Number</th>
 							<th data-priority="6">Action</th>
 							
@@ -99,17 +99,16 @@
 						
 
                          <tr class="bg-white rounded-lg shadow-sm">
-                                        <td class="p-3 text-gray-700 ">Ertiga</td>
+                                        <td class="p-3 text-gray-700 ">15 Seater</td>
 
-                                        <td class="p-3 text-gray-700 ">MH01CC0001</td>
+                                        <td class="p-3 text-gray-700 "> Sai Travels</td>
+                                        <td class="p-3 text-gray-700 ">Traveller</td>
 
                                         <td class="p-3">
                                             <div class="flex -space-x-2">
                                                 <img src="" class="w-6 h-6 border-2 border-white rounded-full" />
                                             </div>
                                         </td>
-
-                                        <td class="p-3 text-gray-700 ">7 Seater</td>
                                         <td class="p-3 text-gray-700 ">9876543210</td>
                                         <td class="p-3 text-gray-700 "><button type=""
                                                 class=" inline-flex items-center  p-0.5 overflow-hidden text-sm font-medium text-heading rounded group bg-gradient-to-br from-green-400 to-blue-600 group-hover:from-green-400 group-hover:to-blue-600 hover:text-white focus:ring-4 focus:outline-none focus:ring-green-200">
@@ -119,21 +118,19 @@
                                                 </span>
                                             </button></td>
 
-
-                                    </tr>
+                                     </tr>
 
                                     <tr class="bg-white rounded-lg shadow-sm">
-                                        <td class="p-3 text-gray-700 ">Ertiga</td>
+                                        <td class="p-3 text-gray-700 ">15 Seater</td>
 
-                                        <td class="p-3 text-gray-700 ">MH01CC0001</td>
+                                        <td class="p-3 text-gray-700 "> Sai Travels</td>
+                                        <td class="p-3 text-gray-700 ">Traveller</td>
 
                                         <td class="p-3">
                                             <div class="flex -space-x-2">
                                                 <img src="" class="w-6 h-6 border-2 border-white rounded-full" />
                                             </div>
                                         </td>
-
-                                        <td class="p-3 text-gray-700 ">7 Seater</td>
                                         <td class="p-3 text-gray-700 ">9876543210</td>
                                         <td class="p-3 text-gray-700 "><button type=""
                                                 class=" inline-flex items-center  p-0.5 overflow-hidden text-sm font-medium text-heading rounded group bg-gradient-to-br from-green-400 to-blue-600 group-hover:from-green-400 group-hover:to-blue-600 hover:text-white focus:ring-4 focus:outline-none focus:ring-green-200">
@@ -143,79 +140,74 @@
                                                 </span>
                                             </button></td>
 
+                                     </tr>
 
-                                    </tr>
-                                    <tr class="bg-white rounded-lg shadow-sm">
-                                        <td class="p-3 text-gray-700 ">Innova</td>
+                                   <tr class="bg-white rounded-lg shadow-sm">
+                                        <td class="p-3 text-gray-700 ">15 Seater</td>
 
-                                        <td class="p-3 text-gray-700 ">MH02CC0002</td>
+                                        <td class="p-3 text-gray-700 "> Sai Travels</td>
+                                        <td class="p-3 text-gray-700 ">Traveller</td>
 
                                         <td class="p-3">
                                             <div class="flex -space-x-2">
                                                 <img src="" class="w-6 h-6 border-2 border-white rounded-full" />
                                             </div>
                                         </td>
-
-                                        <td class="p-3 text-gray-700 ">7 Seater</td>
                                         <td class="p-3 text-gray-700 ">9876543210</td>
                                         <td class="p-3 text-gray-700 "><button type=""
-                                                class=" inline-flex items-center  p-0.5 overflow-hidden text-sm font-medium text-heading rounded group bg-gradient-to-br from-green-400 to-blue-600 group-hover:from-green-400 group-hover:to-blue-600 hover:text-white focus:ring-4 focus:outline-none focus:ring-green-200 ">
+                                                class=" inline-flex items-center  p-0.5 overflow-hidden text-sm font-medium text-heading rounded group bg-gradient-to-br from-green-400 to-blue-600 group-hover:from-green-400 group-hover:to-blue-600 hover:text-white focus:ring-4 focus:outline-none focus:ring-green-200">
                                                 <span
                                                     class=" relative px-10 py-2.5 transition-all ease-in duration-75 bg-neutral-primary-soft rounded group-hover:bg-transparent leading-5">
                                                     Update
                                                 </span>
                                             </button></td>
 
+                                     </tr>
 
+                                    <tr class="bg-white rounded-lg shadow-sm">
+                                        <td class="p-3 text-gray-700 ">15 Seater</td>
 
-                                    </tr>
-                                    <tr class="bg-white  rounded-lg shadow-sm">
-                                        <td class="p-3 text-gray-700 ">Swift</td>
-
-                                        <td class="p-3 text-gray-700 ">MH03CC0003</td>
+                                        <td class="p-3 text-gray-700 "> Sai Travels</td>
+                                        <td class="p-3 text-gray-700 ">Traveller</td>
 
                                         <td class="p-3">
                                             <div class="flex -space-x-2">
                                                 <img src="" class="w-6 h-6 border-2 border-white rounded-full" />
                                             </div>
                                         </td>
-
-                                        <td class="p-3 text-gray-700 ">4 Seater</td>
                                         <td class="p-3 text-gray-700 ">9876543210</td>
                                         <td class="p-3 text-gray-700 "><button type=""
-                                                class=" inline-flex items-center  p-0.5 overflow-hidden text-sm font-medium text-heading rounded group bg-gradient-to-br from-green-400 to-blue-600 group-hover:from-green-400 group-hover:to-blue-600 hover:text-white  focus:ring-4 focus:outline-none focus:ring-green-200 ">
+                                                class=" inline-flex items-center  p-0.5 overflow-hidden text-sm font-medium text-heading rounded group bg-gradient-to-br from-green-400 to-blue-600 group-hover:from-green-400 group-hover:to-blue-600 hover:text-white focus:ring-4 focus:outline-none focus:ring-green-200">
                                                 <span
                                                     class=" relative px-10 py-2.5 transition-all ease-in duration-75 bg-neutral-primary-soft rounded group-hover:bg-transparent leading-5">
                                                     Update
                                                 </span>
                                             </button></td>
 
+                                     </tr>
 
+                                   <tr class="bg-white rounded-lg shadow-sm">
+                                        <td class="p-3 text-gray-700 ">15 Seater</td>
 
-                                    </tr>
-                                    <tr class="bg-white rounded-lg shadow-sm">
-                                        <td class="p-3 text-gray-700 ">Triber</td>
-
-                                        <td class="p-3 text-gray-700 ">MH04CC0004</td>
+                                        <td class="p-3 text-gray-700 "> Sai Travels</td>
+                                        <td class="p-3 text-gray-700 ">Traveller</td>
 
                                         <td class="p-3">
                                             <div class="flex -space-x-2">
                                                 <img src="" class="w-6 h-6 border-2 border-white rounded-full" />
                                             </div>
                                         </td>
-
-                                        <td class="p-3 text-gray-700 ">7 Seater</td>
                                         <td class="p-3 text-gray-700 ">9876543210</td>
-<td class="p-3 text-gray-700 "><button type=""
-                                                class=" inline-flex items-center  p-0.5 overflow-hidden text-sm font-medium text-heading rounded group bg-gradient-to-br from-green-400 to-blue-600 group-hover:from-green-400 group-hover:to-blue-600 hover:text-white  focus:ring-4 focus:outline-none focus:ring-green-200 ">
+                                        <td class="p-3 text-gray-700 "><button type=""
+                                                class=" inline-flex items-center  p-0.5 overflow-hidden text-sm font-medium text-heading rounded group bg-gradient-to-br from-green-400 to-blue-600 group-hover:from-green-400 group-hover:to-blue-600 hover:text-white focus:ring-4 focus:outline-none focus:ring-green-200">
                                                 <span
                                                     class=" relative px-10 py-2.5 transition-all ease-in duration-75 bg-neutral-primary-soft rounded group-hover:bg-transparent leading-5">
                                                     Update
                                                 </span>
                                             </button></td>
 
+                                     </tr>
 
-                                    </tr>
 
 						
 						<!-- Rest of your data (refer to https://datatables.net/examples/server_side/ for server side processing)-->

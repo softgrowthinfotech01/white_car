@@ -67,6 +67,39 @@
     </a>
 </li>
 
+ <!-- location -->
+
+ <li>
+                <button
+                    @click.prevent="selected = (selected === 'location' ? '' : 'location')"
+                    class="flex w-full items-center gap-3 px-3 py-2 border border-gray-300 rounded-md hover:bg-gray-100 transition"
+                    :class="selected === 'location' ? 'bg-gray-200' : ''">
+
+                    <svg class="h-5 w-5 text-gray-700" viewBox="0 0 24 24" fill="none">
+                        <rect x="4" y="4" width="16" height="16" stroke="currentColor" stroke-width="1.4"/>
+                    </svg>
+
+                    <span class="text-sm font-medium text-black"
+                        :class="sidebarToggle ? 'lg:hidden' : ''">Location</span>
+
+                    <svg class="h-4 w-4 ml-auto text-gray-600 transition-transform"
+                        :class="selected === 'location' ? 'rotate-180' : ''"
+                        viewBox="0 0 24 24" fill="none">
+                        <path d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" />
+                    </svg>
+                </button>
+
+                <!-- DROPDOWN -->
+                <div x-show="selected === 'location'" x-collapse class="mt-3 ml-10 space-y-4">
+
+                    <a href="form_location.php"
+                        class="block px-3 py-2 text-sm border border-gray-300 rounded-md hover:bg-gray-100">
+                        Location Form
+                    </a>
+
+                </div>
+            </li>
             <!-- ============ FORMS ============ -->
             <li>
                 <button
@@ -102,6 +135,16 @@
                         Driver Details Form
                     </a>
 
+                     <a href="form_perHour.php"
+                        class="block px-3 py-2 text-sm border border-gray-300 rounded-md hover:bg-gray-100">
+                        Per Hour Form
+                    </a>
+
+                    <a href="form_miniBus.php"
+                        class="block px-3 py-2 text-sm border border-gray-300 rounded-md hover:bg-gray-100">
+                        Mini Bus Form
+                    </a>
+
                 </div>
             </li>
 
@@ -135,6 +178,12 @@
                     <a href="list_carRental.php"
                         class="block px-3 py-2 text-sm border border-gray-300 rounded-md hover:bg-gray-100">Car Rental List</a>
 
+                    <a href="list_perHour.php"
+                        class="block px-3 py-2 text-sm border border-gray-300 rounded-md hover:bg-gray-100">Per Hour</a>
+
+                    <a href="list_miniBus.php"
+                        class="block px-3 py-2 text-sm border border-gray-300 rounded-md hover:bg-gray-100">Mini Bus</a>    
+
                     <a href="list_driver.php"
                         class="block px-3 py-2 text-sm border border-gray-300 rounded-md hover:bg-gray-100">Driver List</a>
 
@@ -146,6 +195,9 @@
 
                     <a href="list_complaint.php"
                         class="block px-3 py-2 text-sm border border-gray-300 rounded-md hover:bg-gray-100">Complaint</a>
+
+                     <a href="list_location.php"
+                        class="block px-3 py-2 text-sm border border-gray-300 rounded-md hover:bg-gray-100">Location</a>    
 
                 </div>
             </li>

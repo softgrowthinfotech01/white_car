@@ -7,7 +7,7 @@
         content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>
-        Car Details Form
+        Per Hour Vehicle Form
     </title>
 
     <link rel="stylesheet" href="css/tail.css">
@@ -80,50 +80,7 @@
                                         <div
                                             class="grid grid-cols-1  md:grid-cols-2 gap-4 space-y-6  border-t border-gray-100 p-5 sm:p-6  ">
 
-                                            <div>
-                                                <label for="vehicleName"
-                                                    class="mb-1.5 block text-sm font-medium text-gray-700">
-                                                    Vehicle Name
-                                                </label>
-                                                <input type="text" id="vehicleName"
-                                                    placeholder="Enter vehicle name here..." required
-                                                    class=" shadow-theme-xs focus:border-brand-300 focus:ring-brand-500/10  h-11 w-full rounded-lg border border-gray-300 bg-transparent px-4 py-2.5 text-sm text-gray-800 placeholder:text-gray-400 focus:ring-3 focus:outline-hidden " />
-                                            </div>
-
-                                            <div>
-                                                <label for="vehicleNum"
-                                                    class="mb-1.5 block text-sm font-medium text-gray-70">
-                                                    Vehicle Number
-                                                </label>
-                                                <input type="text" id="vehicleNum"
-                                                    placeholder="Enter vehicle number here..."
-                                                    class=" shadow-theme-xs focus:border-brand-300 focus:ring-brand-500/10  h-11 w-full rounded-lg border border-gray-300 bg-transparent px-4 py-2.5 text-sm text-gray-800 placeholder:text-gray-400 focus:ring-3 focus:outline-hidden" />
-                                            </div>
-
-                                            <!-- vehicle photo -->
-
-                                            <div>
-                                                <label for="vehiclePhoto"
-                                                    class="mb-1.5 block text-sm font-medium text-gray-700 ">
-                                                    Vehicle Photo
-                                                </label>
-                                                <input type="file" id="vehiclePhoto"
-                                                    class="focus:border-ring-brand-300 shadow-theme-xs focus:file:ring-brand-300 h-11 w-full overflow-hidden rounded-lg border border-gray-300 bg-transparent text-sm text-gray-500 transition-colors file:mr-5 file:border-collapse file:cursor-pointer file:rounded-l-lg file:border-0 file:border-r file:border-solid file:border-gray-200 file:bg-gray-50 file:py-3 file:pr-3 file:pl-3.5 file:text-sm file:text-gray-700 placeholder:text-gray-400 hover:file:bg-gray-100 focus:outline-hidden " />
-                                            </div>
-
                                              <div>
-                                                <label for="mobileNum"
-                                                    class="mb-1.5 block text-sm font-medium text-gray-70">
-                                                    Mobile Number
-                                                </label>
-                                                <input type="text" id="mobileNum"
-                                                    placeholder="Enter Mobile Number here..."
-                                                    class=" shadow-theme-xs focus:border-brand-300 focus:ring-brand-500/10  h-11 w-full rounded-lg border border-gray-300 bg-transparent px-4 py-2.5 text-sm text-gray-800 placeholder:text-gray-400 focus:ring-3 focus:outline-hidden" />
-                                            </div>
-
-                                            <!-- vehicle type -->
-
-                                            <div>
                                                 <label for="VehicleType"
                                                     class="mb-1.5 block text-sm font-medium text-gray-700 ">
                                                     Select Vehicle Type
@@ -163,6 +120,95 @@
                                                     </span>
                                                 </div>
                                             </div>
+                                            <div>
+                                                <label for="vehicleName"
+                                                    class="mb-1.5 block text-sm font-medium text-gray-700">
+                                                    Vehicle Name
+                                                </label>
+                                                <input type="text" id="vehicleName"
+                                                    placeholder="Enter vehicle name here..." required
+                                                    class=" shadow-theme-xs focus:border-brand-300 focus:ring-brand-500/10  h-11 w-full rounded-lg border border-gray-300 bg-transparent px-4 py-2.5 text-sm text-gray-800 placeholder:text-gray-400 focus:ring-3 focus:outline-hidden " />
+                                            </div>
+
+                                            <div>
+                                                <label for="price"
+                                                    class="mb-1.5 block text-sm font-medium text-gray-70">
+                                                    Rent Price
+                                                </label>
+                                                <input type="text" id="price"
+                                                    placeholder="Enter price here..."
+                                                    class=" shadow-theme-xs focus:border-brand-300 focus:ring-brand-500/10  h-11 w-full rounded-lg border border-gray-300 bg-transparent px-4 py-2.5 text-sm text-gray-800 placeholder:text-gray-400 focus:ring-3 focus:outline-hidden" />
+                                            </div>
+
+                                            <!-- vehicle photo -->
+
+                                            <div>
+                                                <label for="vehiclePhoto"
+                                                    class="mb-1.5 block text-sm font-medium text-gray-700 ">
+                                                    Vehicle Photo
+                                                </label>
+                                                <input type="file" id="vehiclePhoto"
+                                                    class="focus:border-ring-brand-300 shadow-theme-xs focus:file:ring-brand-300 h-11 w-full overflow-hidden rounded-lg border border-gray-300 bg-transparent text-sm text-gray-500 transition-colors file:mr-5 file:border-collapse file:cursor-pointer file:rounded-l-lg file:border-0 file:border-r file:border-solid file:border-gray-200 file:bg-gray-50 file:py-3 file:pr-3 file:pl-3.5 file:text-sm file:text-gray-700 placeholder:text-gray-400 hover:file:bg-gray-100 focus:outline-hidden " />
+                                            </div>
+                                             <div>
+                                                <label for="mobileNum"
+                                                    class="mb-1.5 block text-sm font-medium text-gray-70">
+                                                    Mobile Number
+                                                </label>
+                                                <input type="text" id="mobileNum"
+                                                    placeholder="Enter Mobile Number here..."
+                                                    class=" shadow-theme-xs focus:border-brand-300 focus:ring-brand-500/10  h-11 w-full rounded-lg border border-gray-300 bg-transparent px-4 py-2.5 text-sm text-gray-800 placeholder:text-gray-400 focus:ring-3 focus:outline-hidden" />
+                                            </div>
+
+                                             <div>
+                                                <label for="desc1"
+                                                    class="mb-1.5 block text-sm font-medium text-gray-700">
+                                                    Description 1
+                                                </label>
+                                                <input type="text" id="desk1"
+                                                    placeholder="Enter description here..." 
+                                                    class=" shadow-theme-xs focus:border-brand-300 focus:ring-brand-500/10  h-11 w-full rounded-lg border border-gray-300 bg-transparent px-4 py-2.5 text-sm text-gray-800 placeholder:text-gray-400 focus:ring-3 focus:outline-hidden " />
+                                            </div>
+                                             <div>
+                                                <label for="desc2"
+                                                    class="mb-1.5 block text-sm font-medium text-gray-700">
+                                                    Description 2
+                                                </label>
+                                                <input type="text" id="desk2"
+                                                    placeholder="Enter description here..." 
+                                                    class=" shadow-theme-xs focus:border-brand-300 focus:ring-brand-500/10  h-11 w-full rounded-lg border border-gray-300 bg-transparent px-4 py-2.5 text-sm text-gray-800 placeholder:text-gray-400 focus:ring-3 focus:outline-hidden " />
+                                            </div>
+                                             <div>
+                                                <label for="desc3"
+                                                    class="mb-1.5 block text-sm font-medium text-gray-700">
+                                                    Description 3
+                                                </label>
+                                                <input type="text" id="desk3"
+                                                    placeholder="Enter description here..." 
+                                                    class=" shadow-theme-xs focus:border-brand-300 focus:ring-brand-500/10  h-11 w-full rounded-lg border border-gray-300 bg-transparent px-4 py-2.5 text-sm text-gray-800 placeholder:text-gray-400 focus:ring-3 focus:outline-hidden " />
+                                            </div>
+                                             <div>
+                                                <label for="desc4"
+                                                    class="mb-1.5 block text-sm font-medium text-gray-700">
+                                                    Description 4
+                                                </label>
+                                                <input type="text" id="desk4"
+                                                    placeholder="Enter description here..." 
+                                                    class=" shadow-theme-xs focus:border-brand-300 focus:ring-brand-500/10  h-11 w-full rounded-lg border border-gray-300 bg-transparent px-4 py-2.5 text-sm text-gray-800 placeholder:text-gray-400 focus:ring-3 focus:outline-hidden " />
+                                            </div>
+                                             <div>
+                                                <label for="desc5"
+                                                    class="mb-1.5 block text-sm font-medium text-gray-700">
+                                                    Description 5
+                                                </label>
+                                                <input type="text" id="desk5"
+                                                    placeholder="Enter description here..." 
+                                                    class=" shadow-theme-xs focus:border-brand-300 focus:ring-brand-500/10  h-11 w-full rounded-lg border border-gray-300 bg-transparent px-4 py-2.5 text-sm text-gray-800 placeholder:text-gray-400 focus:ring-3 focus:outline-hidden " />
+                                            </div>
+
+                                       
+
+                                         
                                         </div>
                                         <div class="mb-6 pb-2 flex justify-center items-center gap-4">
                                             <button type=""
